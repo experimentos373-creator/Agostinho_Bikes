@@ -1,0 +1,23 @@
+# Route N109
+> Authorized Mondraker Dealer, Premium Performance Bike Store and Specialized Repair Workshop in Lavos, Figueira da Foz, Figueira da Foz, Portugal. Established over 35 years.
+
+## Site Structure
+- [Início / Home (PT)](https://agostinho-bikes.vercel.app/): Main page highlighting official Mondraker partnership, services, and featured popular E-MTB and Conventional bikes.
+- [Catálogo / Catalog (PT)](https://agostinho-bikes.vercel.app/catalogo): Browse the complete range of Mondraker high-performance bikes including Zendit (DJI Avinox) and Crafty series.
+- [Serviços / Services (PT)](https://agostinho-bikes.vercel.app/servicos): Detailed information on official workshop repair services, custom builds, and budget requests.
+- [Empresa / About (PT)](https://agostinho-bikes.vercel.app/empresa): Over 35 years of history, official partnership with Mondraker, and contact coordinates.
+- [Galeria / Gallery (PT)](https://agostinho-bikes.vercel.app/galeria): Visual gallery of our shop, mechanics workshop, custom builds, and team rides.
+
+## International Versions
+- [English Home](https://agostinho-bikes.vercel.app/en)
+- [Español Inicio](https://agostinho-bikes.vercel.app/es)
+- [Français Accueil](https://agostinho-bikes.vercel.app/fr)
+- [Deutsch Startseite](https://agostinho-bikes.vercel.app/de)
+
+## Key Facts & Specifications
+- Over 35 years of experience in specialized cycle sales and maintenance.
+- Official dealership and certified technical center for Mondraker Performance Bikes.
+- Official service and diagnostic center for DJI Avinox and Bosch Smart System e-bike motors.
+- Premium custom bike builds and professional tuning services.
+- Official email: routen109mobilidade@gmail.com
+- Contact phone: +351 935 141 143

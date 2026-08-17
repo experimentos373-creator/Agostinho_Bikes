@@ -1,0 +1,30 @@
+# robots.txt para Route N109
+# Otimizado para SEO Google e Controle de IA (Junho de 2026)
+
+User-agent: *
+Allow: /
+Disallow: /dist/
+Disallow: /node_modules/
+
+# Controle de Bots de Treinamento de IA (Bloqueia uso de dados sem afetar a pesquisa do Google)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# Permite que o ChatGPT navegue em tempo real para citar o site nos resultados de busca por IA
+User-agent: ChatGPT-User
+Allow: /
+
+# Sitemap
+Sitemap: https://route109.vercel.app/sitemap.xml

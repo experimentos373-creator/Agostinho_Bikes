@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://route109.vercel.app</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/mondraker</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/mondraker</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/mondraker</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/mondraker</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/mondraker</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/bicicletas-eletricas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/bicicletas-eletricas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/bicicletas-eletricas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/bicicletas-eletricas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/bicicletas-eletricas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/bicicletas-eletricas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/bicicletas-eletricas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/bicicletas-eletricas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/bicicletas-eletricas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/bicicletas-eletricas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/bicicletas-eletricas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/mondraker-crafty</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-crafty" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/mondraker-crafty</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-crafty" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/mondraker-crafty</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-crafty" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/mondraker-crafty</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-crafty" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/mondraker-crafty</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-crafty" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-crafty" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/mondraker-zendit</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-zendit" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/mondraker-zendit</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-zendit" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/mondraker-zendit</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-zendit" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/mondraker-zendit</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-zendit" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/mondraker-zendit</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-zendit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-zendit" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/mondraker-summum</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-summum" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/mondraker-summum</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-summum" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/mondraker-summum</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-summum" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/mondraker-summum</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-summum" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/mondraker-summum</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/mondraker-summum" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/mondraker-summum" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/e-bikes</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/e-bikes</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/e-bikes</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/e-bikes</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/e-bikes</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/e-bikes-usadas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes-usadas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/e-bikes-usadas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes-usadas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/e-bikes-usadas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes-usadas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/e-bikes-usadas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes-usadas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/e-bikes-usadas</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/e-bikes-usadas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/e-bikes-usadas" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/oficina-pombal</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/oficina-pombal" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/oficina-pombal</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/oficina-pombal" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/oficina-pombal</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/oficina-pombal" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/oficina-pombal</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/oficina-pombal" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/oficina-pombal</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/oficina-pombal" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/oficina-pombal" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/assistencia-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/assistencia-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/assistencia-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/assistencia-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/assistencia-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/assistencia-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/assistencia-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/assistencia-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/assistencia-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/assistencia-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/assistencia-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/diagnostico-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/diagnostico-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/diagnostico-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/diagnostico-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/diagnostico-bosch</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-bosch" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-bosch" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/diagnostico-dji-avinox</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/diagnostico-dji-avinox</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/diagnostico-dji-avinox</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/diagnostico-dji-avinox</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/diagnostico-dji-avinox</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/diagnostico-dji-avinox" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/diagnostico-dji-avinox" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/orcamento</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/orcamento" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/orcamento" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/orcamento" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/orcamento" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/orcamento" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/orcamento" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/orcamento</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/orcamento" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/orcamento" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/orcamento" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/orcamento" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/orcamento" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/orcamento" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/orcamento</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/orcamento" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/orcamento" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/orcamento" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/orcamento" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/orcamento" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/orcamento" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/orcamento</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/orcamento" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/orcamento" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/orcamento" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/orcamento" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/orcamento" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/orcamento" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/orcamento</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/orcamento" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/orcamento" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/orcamento" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/orcamento" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/orcamento" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/orcamento" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/marcacao-oficina</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/marcacao-oficina" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/en/marcacao-oficina</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/marcacao-oficina" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/es/marcacao-oficina</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/marcacao-oficina" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/fr/marcacao-oficina</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/marcacao-oficina" />
+  </url>
+  <url>
+    <loc>https://route109.vercel.app/de/marcacao-oficina</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://route109.vercel.app/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://route109.vercel.app/en/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://route109.vercel.app/es/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://route109.vercel.app/fr/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://route109.vercel.app/de/marcacao-oficina" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://route109.vercel.app/marcacao-oficina" />
+  </url>
+</urlset>
