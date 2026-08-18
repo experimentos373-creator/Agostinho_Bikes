@@ -60,10 +60,23 @@ export default function LegalModals({ activeModal, onClose }) {
                 </p>
 
                 <h3 className="font-extrabold text-neutral-950 text-base uppercase tracking-tight mt-6">
-                  4. Direitos dos Titulares (RGPD)
+                  4. Conservação dos Dados
                 </h3>
                 <p>
-                  De acordo com o Regulamento Geral sobre a Proteção de Dados (Regulamento UE 2016/679), o utilizador tem o direito de aceder, retificar, limitar o tratamento ou exigir a eliminação definitiva dos seus dados pessoais guardados em qualquer altura. Para exercer estes direitos, por favor contacte-nos através do e-mail: <a href="mailto:agostinho.in.lda@gmail.com" className="text-red-600 font-bold hover:underline">agostinho.in.lda@gmail.com</a>.
+                  Os dados pessoais são conservados apenas durante o período estritamente necessário para a resposta ao seu pedido ou prestação do serviço, ou durante os prazos legais obrigatórios (como a conservação de documentos fiscais e faturação).
+                </p>
+
+                <h3 className="font-extrabold text-neutral-950 text-base uppercase tracking-tight mt-6">
+                  5. Direitos dos Titulares (RGPD)
+                </h3>
+                <p>
+                  De acordo com o Regulamento Geral sobre a Proteção de Dados (Regulamento UE 2016/679) e a Lei n.º 58/2019, o utilizador tem o direito de aceder, retificar, limitar o tratamento, opor-se ou exigir a eliminação definitiva dos seus dados pessoais («direito a ser esquecido») em qualquer altura.
+                </p>
+                <p>
+                  Para exercer estes direitos, contacte-nos através do e-mail: <a href="mailto:agostinho.in.lda@gmail.com" className="text-red-600 font-bold hover:underline">agostinho.in.lda@gmail.com</a>.
+                </p>
+                <p className="p-3 bg-neutral-50 rounded-xl border border-neutral-200 text-xs text-neutral-600 mt-2">
+                  Tem ainda o direito de apresentar reclamação junto da autoridade de controlo competente em Portugal: <strong>Comissão Nacional de Proteção de Dados (CNPD)</strong> (<a href="https://www.cnpd.pt" target="_blank" rel="noopener noreferrer" className="text-red-600 underline">www.cnpd.pt</a>).
                 </p>
               </div>
             </>
@@ -73,7 +86,7 @@ export default function LegalModals({ activeModal, onClose }) {
                 Política de Cookies
               </h2>
               <p className="text-xs text-neutral-500 font-medium">
-                Última atualização: 17 de Agosto de 2026
+                Última atualização: 18 de Agosto de 2026
               </p>
 
               <div className="space-y-4 text-sm leading-relaxed text-neutral-700">
@@ -85,28 +98,34 @@ export default function LegalModals({ activeModal, onClose }) {
                   1. O que são Cookies?
                 </h3>
                 <p>
-                  Cookies são pequenos ficheiros de texto armazenados no seu computador ou dispositivo móvel através do navegador de internet (browser) que guardam informação relacionada com as suas preferências, não incluindo os seus dados pessoais.
+                  Cookies são pequenos ficheiros de texto armazenados no seu computador ou dispositivo móvel através do navegador de internet (browser) que guardam informação relacionada com as suas preferências, não recolhendo dados confidenciais do seu sistema.
                 </p>
 
                 <h3 className="font-extrabold text-neutral-950 text-base uppercase tracking-tight mt-6">
-                  2. Cookies que Utilizados no Site
+                  2. Cookies Utilizados no Site
                 </h3>
                 <div className="space-y-3">
-                  <div className="bg-neutral-50 p-3 rounded-xl border border-neutral-100">
+                  <div className="bg-neutral-50 p-4 rounded-xl border border-neutral-200/80">
                     <p className="font-bold text-neutral-950 text-xs uppercase tracking-wider mb-1">
                       Cookies Estritamente Necessários (Essenciais)
                     </p>
-                    <p className="text-xs text-neutral-600">
-                      Permitem a navegação no website e a utilização das suas opções básicas, tais como guardar as preferências de consentimento de privacidade. O site não funciona corretamente sem estes cookies.
+                    <p className="text-xs text-neutral-600 mb-2">
+                      Permitem a navegação no website e a utilização das suas opções básicas, tais como guardar as preferências de consentimento de privacidade e idioma.
                     </p>
+                    <div className="text-[11px] font-mono text-neutral-700 bg-white p-2 rounded border border-neutral-200">
+                      • <strong>agostinho_cookie_consent</strong>: Guarda a decisão de consentimento (Duração: 1 ano)
+                    </div>
                   </div>
-                  <div className="bg-neutral-50 p-3 rounded-xl border border-neutral-100">
+                  <div className="bg-neutral-50 p-4 rounded-xl border border-neutral-200/80">
                     <p className="font-bold text-neutral-950 text-xs uppercase tracking-wider mb-1">
                       Cookies Analíticos (Google Analytics)
                     </p>
-                    <p className="text-xs text-neutral-600">
-                      Utilizados para efeitos de criação e análise estatística de visitas, permitindo-nos perceber como os utilizadores navegam pelas páginas e melhorar continuamente a performance do site.
+                    <p className="text-xs text-neutral-600 mb-2">
+                      Utilizados para efeitos de análise estatística de visitas, com IP anonimizado, permitindo-nos compreender como os utilizadores navegam pelas páginas e melhorar a performance do site.
                     </p>
+                    <div className="text-[11px] font-mono text-neutral-700 bg-white p-2 rounded border border-neutral-200">
+                      • <strong>_ga, _ga_*</strong>: Google Analytics 4 (Duração: 2 anos)
+                    </div>
                   </div>
                 </div>
 
@@ -114,7 +133,7 @@ export default function LegalModals({ activeModal, onClose }) {
                   3. Como Gerir ou Desativar os Cookies
                 </h3>
                 <p>
-                  Pode alterar as suas preferências de consentimento a qualquer momento no banner inferior do site ou configurar o seu browser para recusar a instalação de cookies. Note que desativar cookies essenciais poderá impedir o funcionamento de certas funcionalidades do website.
+                  Pode alterar as suas preferências de consentimento no banner do site ou configurar o seu browser para bloquear cookies a qualquer momento (Google Chrome, Safari, Firefox, Edge).
                 </p>
               </div>
             </>

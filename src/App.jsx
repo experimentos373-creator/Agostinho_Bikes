@@ -198,7 +198,10 @@ export default function App() {
         />
 
         {/* Cookie Consent Banner */}
-        <CookieConsent onOpenCookiesPolicy={() => setActiveModal("cookies")} />
+        <CookieConsent 
+          onOpenCookiesPolicy={() => setActiveModal("cookies")} 
+          onOpenPrivacyPolicy={() => setActiveModal("privacy")} 
+        />
 
         {/* Interactive Legal Modals */}
         <LegalModals activeModal={activeModal} onClose={() => setActiveModal(null)} />
