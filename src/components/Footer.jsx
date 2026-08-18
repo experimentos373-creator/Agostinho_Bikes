@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import { Facebook, Instagram, Phone, Mail, ArrowUpRight } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { config } from "../config";
 
-export default function Footer({ onOpenPrivacy, onOpenCookies }) {
+export default function Footer() {
   const { t, language } = useLanguage();
   const currentYear = new Date().getFullYear();
 
@@ -134,25 +135,25 @@ export default function Footer({ onOpenPrivacy, onOpenCookies }) {
               <a 
                 href="https://www.livroreclamacoes.pt" 
                 target="_blank" 
-                rel="noopener noreferrer"
+                rel="noopener noreferrer" 
                 className="hover:text-white transition-colors underline"
               >
                 Livro de Reclamações Eletrónico
               </a>
               <span className="hidden md:inline text-neutral-700">|</span>
-              <button 
-                onClick={onOpenPrivacy}
-                className="hover:text-white transition-colors underline bg-transparent border-none p-0 cursor-pointer text-[10px] font-medium outline-none"
+              <Link 
+                to={prefix ? `${prefix}/politica-privacidade` : "/politica-privacidade"}
+                className="hover:text-white transition-colors underline"
               >
-                Política de Privacidade
-              </button>
+                {language === "en" ? "Privacy Policy" : "Política de Privacidade"}
+              </Link>
               <span className="hidden md:inline text-neutral-700">|</span>
-              <button 
-                onClick={onOpenCookies}
-                className="hover:text-white transition-colors underline bg-transparent border-none p-0 cursor-pointer text-[10px] font-medium outline-none"
+              <Link 
+                to={prefix ? `${prefix}/politica-cookies` : "/politica-cookies"}
+                className="hover:text-white transition-colors underline"
               >
-                Política de Cookies
-              </button>
+                {language === "en" ? "Cookie Policy" : "Política de Cookies"}
+              </Link>
             </div>
           </div>
 

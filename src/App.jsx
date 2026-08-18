@@ -1,11 +1,10 @@
-import { useEffect, lazy, Suspense, useState } from "react";
+import { useEffect, lazy, Suspense } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import CookieConsent from "./components/CookieConsent";
-import LegalModals from "./components/LegalModals";
 import { LanguageProvider } from "./context/LanguageContext";
 
 import Home from "./pages/Home";
@@ -17,6 +16,8 @@ const CompanyPage = lazy(() => import("./pages/CompanyPage"));
 const ServicesPage = lazy(() => import("./pages/ServicesPage"));
 const GalleryPage = lazy(() => import("./pages/GalleryPage"));
 const RentPage = lazy(() => import("./pages/RentPage"));
+const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage"));
+const CookiePolicyPage = lazy(() => import("./pages/CookiePolicyPage"));
 
 // Scroll Restoration & Hash Scrolling Helper
 function ScrollToTop() {
@@ -128,8 +129,6 @@ function CanonicalObserver() {
 }
 
 export default function App() {
-  const [activeModal, setActiveModal] = useState(null);
-
   return (
     <LanguageProvider>
       <div className="bg-white text-dark min-h-screen flex flex-col justify-between overflow-x-hidden">
@@ -182,6 +181,20 @@ export default function App() {
             <Route path="/fr/galerie" element={<GalleryPage />} />
             <Route path="/de/galerie" element={<GalleryPage />} />
 
+            {/* Privacy Policy routes */}
+            <Route path="/politica-privacidade" element={<PrivacyPolicyPage />} />
+            <Route path="/en/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/es/politica-privacidad" element={<PrivacyPolicyPage />} />
+            <Route path="/fr/politique-confidentialite" element={<PrivacyPolicyPage />} />
+            <Route path="/de/datenschutz" element={<PrivacyPolicyPage />} />
+
+            {/* Cookie Policy routes */}
+            <Route path="/politica-cookies" element={<CookiePolicyPage />} />
+            <Route path="/en/cookie-policy" element={<CookiePolicyPage />} />
+            <Route path="/es/politica-cookies" element={<CookiePolicyPage />} />
+            <Route path="/fr/politique-cookies" element={<CookiePolicyPage />} />
+            <Route path="/de/cookie-richtlinie" element={<CookiePolicyPage />} />
+
             {/* Dynamic SEO pages */}
             <Route path="/:slug" element={<SEOPage />} />
             <Route path="/en/:slug" element={<SEOPage />} />
@@ -192,19 +205,10 @@ export default function App() {
         </Suspense>
 
         {/* Contact Banner & Footer */}
-        <Footer 
-          onOpenPrivacy={() => setActiveModal("privacy")} 
-          onOpenCookies={() => setActiveModal("cookies")} 
-        />
+        <Footer />
 
         {/* Cookie Consent Banner */}
-        <CookieConsent 
-          onOpenCookiesPolicy={() => setActiveModal("cookies")} 
-          onOpenPrivacyPolicy={() => setActiveModal("privacy")} 
-        />
-
-        {/* Interactive Legal Modals */}
-        <LegalModals activeModal={activeModal} onClose={() => setActiveModal(null)} />
+        <CookieConsent />
 
         {/* Dynamic Floating WhatsApp / Phone button */}
         <WhatsAppButton />
