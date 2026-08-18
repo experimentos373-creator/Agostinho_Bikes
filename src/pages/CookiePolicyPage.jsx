@@ -168,7 +168,7 @@ export default function CookiePolicyPage() {
               <h2>3. Como Gerir ou Revogar o Consentimento</h2>
             </div>
             <p className="mb-4">
-              Pode alterar as suas preferências de consentimento a qualquer momento no botão abaixo:
+              Pode alterar as suas preferências a qualquer momento clicando no botão abaixo:
             </p>
             <div className="mb-6">
               <button
@@ -179,15 +179,9 @@ export default function CookiePolicyPage() {
                 <span>Redefinir Preferências de Cookies</span>
               </button>
             </div>
-            <p className="text-xs md:text-sm text-neutral-600 mb-3">
-              Também pode configurar o seu navegador para bloquear ou apagar cookies:
+            <p className="text-xs md:text-sm text-neutral-600">
+              Também pode configurar o seu navegador (Chrome, Safari, Firefox, Edge) para bloquear ou eliminar cookies a qualquer momento nas respetivas definições de privacidade.
             </p>
-            <ul className="list-disc pl-5 space-y-1.5 text-xs md:text-sm text-neutral-600">
-              <li><strong>Google Chrome:</strong> Definições &gt; Privacidade e segurança &gt; Cookies e outros dados do site</li>
-              <li><strong>Mozilla Firefox:</strong> Opções &gt; Privacidade e Segurança &gt; Cookies e Dados do Site</li>
-              <li><strong>Apple Safari:</strong> Preferências &gt; Privacidade &gt; Gerir Dados de Sites</li>
-              <li><strong>Microsoft Edge:</strong> Definições &gt; Permissões do site &gt; Cookies e dados armazenados</li>
-            </ul>
           </section>
 
         </div>
