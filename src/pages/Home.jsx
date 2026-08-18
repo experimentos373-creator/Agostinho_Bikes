@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import Hero from "../components/Hero";
 import About from "../components/About";
+import WhyUs from "../components/WhyUs";
 import Menu from "../components/Menu";
+import Gallery from "../components/Gallery";
 import Reviews from "../components/Reviews";
 import Location from "../components/Location";
 import { useLanguage } from "../context/LanguageContext";
@@ -11,20 +13,21 @@ export default function Home() {
   const { language } = useLanguage();
 
   useEffect(() => {
+    // 1. Dynamic Page Title & Meta Description based on language
     const titles = {
-      pt: "Route N109 | Stand & Oficina de Motos e Scooters Elétricas na Guia",
-      en: "Route N109 | Electric Motorcycles & Scooters Stand & Workshop in Guia",
-      es: "Route N109 | Tienda & Taller de Vehículos Eléctricos en Guia",
-      fr: "Route N109 | Stand & Atelier de Véhicules Électriques à Guia",
-      de: "Route N109 | E-Fahrzeugladen & Werkstatt in Guia"
+      pt: "Agostinho BIKES | Loja & Oficina de Bicicletas em Pombal",
+      en: "Agostinho BIKES | Bike Shop & Workshop in Pombal",
+      es: "Agostinho BIKES | Tienda & Taller de Bicicletas en Pombal",
+      fr: "Agostinho BIKES | Magasin & Atelier de Vélos à Pombal",
+      de: "Agostinho BIKES | Fahrradladen & Werkstatt in Pombal"
     };
 
     const descs = {
-      pt: "Route N109 na Guia, Pombal. Stand e oficina especializada de motos, trotinetas e scooters elétricas. Baterias de lítio e assistência certificada.",
-      en: "Route N109 in Guia, Pombal. Specialized electric motorcycle, scooter and moped stand and workshop. Battery diagnostics and certified assistance.",
-      es: "Route N109 en Guia, Pombal. Stand y taller especializado en motos, scooters y patinetes eléctricos. Diagnóstico de baterías y asistencia certificada.",
-      fr: "Route N109 à Guia, Pombal. Stand et atelier spécialisé de motos, trottinettes et scooters électriques. Diagnostic de batterie et assistance certifiée.",
-      de: "Route N109 in Guia, Pombal. E-Fahrzeug Werkstatt und Stand. Batterie Diagnose und zertifizierte Unterstützung."
+      pt: "Agostinho BIKES em Mata Mourisca, Pombal. Loja e oficina de bicicletas especializada. Representante oficial Mondraker. E-Bikes Bosch e Avinox.",
+      en: "Agostinho BIKES in Mata Mourisca, Pombal. Specialized bicycle shop and workshop. Official Mondraker dealer. Bosch and Avinox E-Bikes.",
+      es: "Agostinho BIKES en Mata Mourisca, Pombal. Tienda y taller de bicicletas especializada. Distribuidor oficial Mondraker. E-Bikes Bosch y Avinox.",
+      fr: "Agostinho BIKES à Mata Mourisca, Pombal. Magasin et atelier de vélos spécialisé. Revendeur officiel Mondraker. E-Bikes Bosch et Avinox.",
+      de: "Agostinho BIKES in Mata Mourisca, Pombal. Fachgeschäft und Fahrradwerkstatt. Offizieller Mondraker-Händler. Bosch und Avinox E-Bikes."
     };
 
     document.title = titles[language] || titles.pt;
@@ -34,12 +37,12 @@ export default function Home() {
       metaDescription.setAttribute("content", descs[language] || descs.pt);
     }
 
-    // JSON-LD Schemas
+    // 2. Google LocalBusiness & WebSite JSON-LD Schemas (using central domain)
     const localBusinessSchema = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "@id": `${config.domain}/#organization`,
-      "name": "Route N109",
+      "name": "Agostinho BIKES",
       "image": `${config.domain}/favicon.png`,
       "url": config.domain,
       "telephone": config.telephone,
@@ -70,15 +73,15 @@ export default function Home() {
         }
       ],
       "sameAs": [
-        "https://www.facebook.com/RouteN109/",
-        "https://www.instagram.com/routen109mobilidade/"
+        "https://www.facebook.com/Agostinho.in",
+        "https://www.instagram.com/agostinho.in_/"
       ]
     };
 
     const websiteSchema = {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Route N109",
+      "name": "Agostinho BIKES",
       "url": config.domain
     };
 
@@ -94,7 +97,7 @@ export default function Home() {
     script2.id = "website-schema";
     document.head.appendChild(script2);
 
-    // Hreflang tags
+    // 3. Dynamic Hreflang Alternate Link Tags for multi-language indexing
     const lPT = document.createElement("link");
     lPT.rel = "alternate";
     lPT.hreflang = "pt";
@@ -141,8 +144,14 @@ export default function Home() {
         {/* About Section */}
         <About />
 
-        {/* Products Catalog Section */}
+        {/* Why Choose Us Section */}
+        <WhyUs />
+
+        {/* Interactive Menu Section */}
         <Menu />
+
+        {/* Gallery Section */}
+        <Gallery />
 
         {/* Customer Reviews Section */}
         <Reviews />

@@ -5,35 +5,35 @@ import { CheckCircle2 } from "lucide-react";
 
 const WHATSAPP_LABELS = {
   pt: {
-    title: "*Novo Pedido de Orçamento - Route N109*",
+    title: "*Novo Pedido de Orçamento - Agostinho BIKES*",
     name: "*Nome:*",
     contact: "*Contacto:*",
     bike: "*Bicicleta:*",
     desc: "*Descrição/Peças:*"
   },
   en: {
-    title: "*New Quote Request - Route N109*",
+    title: "*New Quote Request - Agostinho BIKES*",
     name: "*Name:*",
     contact: "*Contact:*",
     bike: "*Bicycle:*",
     desc: "*Description/Parts:*"
   },
   es: {
-    title: "*Nueva Solicitud de Presupuesto - Route N109*",
+    title: "*Nueva Solicitud de Presupuesto - Agostinho BIKES*",
     name: "*Nombre:*",
     contact: "*Contacto:*",
     bike: "*Bicicleta:*",
     desc: "*Descripción/Piezas:*"
   },
   fr: {
-    title: "*Nouvelle Demande de Devis - Route N109*",
+    title: "*Nouvelle Demande de Devis - Agostinho BIKES*",
     name: "*Nom:*",
     contact: "*Contact:*",
     bike: "*Vélo:*",
     desc: "*Description/Pièces:*"
   },
   de: {
-    title: "*Neue Kostenvoranschlagsanfrage - Route N109*",
+    title: "*Neue Kostenvoranschlagsanfrage - Agostinho BIKES*",
     name: "*Name:*",
     contact: "*Kontakt:*",
     bike: "*Fahrrad:*",

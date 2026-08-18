@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FileText, ArrowRight } from "lucide-react";
+import { FileText, Calendar, ArrowRight } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function ContactForms() {
@@ -12,7 +12,7 @@ export default function ContactForms() {
         
         {/* Section Header */}
         <div className="mb-12 reveal-slide-up text-center">
-          <span className="text-primary font-extrabold uppercase text-xs tracking-widest bg-primary/10 px-4 py-1.5 rounded-full mb-4 inline-block">
+          <span className="text-red-700 font-extrabold uppercase text-xs tracking-widest bg-red-50 border border-red-200/60 px-4 py-1.5 rounded-full mb-4 inline-block">
             {t("contact.servicesTitle")}
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-neutral-900 font-display tracking-tight uppercase mb-4">

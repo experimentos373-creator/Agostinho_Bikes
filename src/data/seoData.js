@@ -1,22 +1,22 @@
 export const SEO_DATA = {
   pt: {
     "mondraker": {
-      metaTitle: "Mondraker Portugal | Revendedor Oficial Route N109",
-      metaDesc: "Gama completa de bicicletas Mondraker em Portugal. Compre a sua E-MTB Mondraker Crafty, F-Podium, Neat ou Dune com Forward Geometry na Route N109 em Figueira da Foz.",
+      metaTitle: "Mondraker Portugal | Revendedor Oficial Agostinho BIKES",
+      metaDesc: "Gama completa de bicicletas Mondraker em Portugal. Compre a sua E-MTB Mondraker Crafty, F-Podium ou Dune com Forward Geometry na Agostinho BIKES em Pombal.",
       h1: "Mondraker Portugal",
       subtitle: "Forward Geometry & Zero Suspension System",
       intro: "A Mondraker é uma das marcas mais inovadoras de ciclismo de montanha e E-MTB do mundo. Reconhecida pelas suas tecnologias exclusivas e quadros de carbono de alta performance, é a escolha ideal para Enduro, Downhill e Trail.",
       features: [
         { title: "Forward Geometry", desc: "Controlo superior, estabilidade a alta velocidade e maior segurança em descidas íngremes." },
         { title: "Zero Suspension System", desc: "Sistema de suspensão traseira extremamente eficiente, neutro e que elimina o kickback do pedal." },
-        { title: "Gama Completa E-MTB", desc: "Modelos aclamados como Mondraker Crafty, Neat Carbon e a novíssima Dune E-MTB Light." }
+        { title: "Gama Completa E-MTB", desc: "Modelos aclamados como Mondraker Crafty Carbon e a novíssima Dune E-MTB Light." }
       ],
       formType: "budget",
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.43.53.webp"
     },
     "bicicletas-eletricas": {
-      metaTitle: "Bicicletas Elétricas | Loja de E-Bikes Route N109",
-      metaDesc: "Descubra as melhores bicicletas elétricas do mercado. Revendedor oficial Mondraker com assistência técnica oficial Bosch, DJI Avinox e TQ-Systems em Figueira da Foz.",
+      metaTitle: "Bicicletas Elétricas | Loja de E-Bikes Agostinho BIKES",
+      metaDesc: "Descubra as melhores bicicletas elétricas do mercado. Revendedor oficial Mondraker com assistência técnica oficial Bosch, DJI Avinox  em Pombal.",
       h1: "Bicicletas Elétricas (E-Bikes)",
       subtitle: "A Performance e Mobilidade Sem Limites",
       intro: "As bicicletas elétricas vieram redefinir os limites do ciclismo. Como revendedor e centro técnico oficial Mondraker, oferecemos a mais alta gama de e-bikes desportivas com motores de referência.",
@@ -30,7 +30,7 @@ export const SEO_DATA = {
     },
     "mondraker-crafty": {
       metaTitle: "Mondraker Crafty | E-MTB de Montanha Premium em Portugal",
-      metaDesc: "Compre a Mondraker Crafty na Route N109. A E-MTB de suspensão total mais vendida, equipada com motor Bosch Performance CX e Forward Geometry.",
+      metaDesc: "Compre a Mondraker Crafty na Agostinho BIKES. A E-MTB de suspensão total mais vendida, equipada com motor Bosch Performance CX e Forward Geometry.",
       h1: "Mondraker Crafty",
       subtitle: "A Referência das E-MTB de Enduro",
       intro: "A Mondraker Crafty é a derradeira máquina de Enduro elétrico. Com suspensão total, geometria agressiva e o sistema inteligente Bosch Smart System, está pronta para subir qualquer montanha e descer os trilhos mais duros.",
@@ -44,7 +44,7 @@ export const SEO_DATA = {
     },
     "mondraker-summum": {
       metaTitle: "Mondraker Summum | Bicicleta Downhill de Competição Premium",
-      metaDesc: "Descubra a Mondraker Summum na Route N109. A máquina de downhill puro com quadro Stealth Carbon, suspensão de 200mm e Forward Geometry.",
+      metaDesc: "Descubra a Mondraker Summum na Agostinho BIKES. A máquina de downhill puro com quadro Stealth Carbon, suspensão de 200mm e Forward Geometry.",
       h1: "Mondraker Summum",
       subtitle: "Máxima Velocidade e Controlo no Downhill",
       intro: "A Mondraker Summum é a bicicleta de downhill de eleição para os pilotos mais rápidos do mundo. Concebida para vencer na Taça do Mundo da UCI, junta um quadro de carbono levíssimo a um sistema de suspensão extremamente eficiente.",
@@ -57,8 +57,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.34.53.webp"
     },
     "mondraker-zendit": {
-      metaTitle: "Mondraker Zendit | Bicicleta Versátil e Confortável em Figueira da Foz",
-      metaDesc: "Conheça a Mondraker Zendit na Route N109. Bicicletas ideais para mobilidade quotidiana ou trilhos recreativos, com a durabilidade Mondraker.",
+      metaTitle: "Mondraker Zendit | Bicicleta Versátil e Confortável em Pombal",
+      metaDesc: "Conheça a Mondraker Zendit na Agostinho BIKES. Bicicletas ideais para mobilidade quotidiana ou trilhos recreativos, com a durabilidade Mondraker.",
       h1: "Mondraker Zendit",
       subtitle: "Conforto e Versatilidade Sem Compromissos",
       intro: "A Mondraker Zendit foi desenhada para ciclistas que procuram uma máquina robusta e extremamente confortável para commutes diários e aventuras de fim de semana fora de estrada.",
@@ -72,7 +72,7 @@ export const SEO_DATA = {
     },
     "e-bikes": {
       metaTitle: "E-Bikes Portugal | Venda e Assistência Especializada",
-      metaDesc: "A sua loja de referência de bicicletas elétricas (E-Bikes) em Figueira da Foz. Gama oficial Mondraker com assistência técnica oficial Bosch, DJI e TQ-Systems.",
+      metaDesc: "A sua loja de referência de bicicletas elétricas (E-Bikes) em Pombal. Gama oficial Mondraker com assistência técnica oficial Bosch, DJI .",
       h1: "E-Bikes Portugal",
       subtitle: "Vá Mais Longe, Suba Mais Rápido",
       intro: "A tecnologia das bicicletas elétricas democratizou o acesso à montanha e transformou a mobilidade. Encontre na nossa loja a maior variedade de e-bikes desportivas Mondraker com assessoria biomecânica personalizada.",
@@ -86,10 +86,10 @@ export const SEO_DATA = {
     },
     "e-bikes-usadas": {
       metaTitle: "E-Bikes Usadas | Bicicletas Elétricas de Ocasião com Garantia",
-      metaDesc: "Compre E-Bikes usadas com total confiança. Todas as bicicletas são submetidas a diagnóstico de bateria oficial e revisão mecânica na Route N109.",
+      metaDesc: "Compre E-Bikes usadas com total confiança. Todas as bicicletas são submetidas a diagnóstico de bateria oficial e revisão mecânica na Agostinho BIKES.",
       h1: "E-Bikes Usadas e Recondicionadas",
       subtitle: "Performance Premium a Preços de Oportunidade",
-      intro: "Comprar uma bicicleta elétrica usada não tem de ser um risco. Na Route N109, cada e-bike usada é inspecionada eletrónica e mecanicamente por técnicos especializados. Entregamos o relatório oficial de saúde da bateria.",
+      intro: "Comprar uma bicicleta elétrica usada não tem de ser um risco. Na Agostinho BIKES, cada e-bike usada é inspecionada eletrónica e mecanicamente por técnicos especializados. Entregamos o relatório oficial de saúde da bateria.",
       features: [
         { title: "Certificado de Bateria", desc: "Teste oficial de capacidade residual da bateria em percentagem (ex: 95% de saúde restante)." },
         { title: "Garantia Mecânica", desc: "Revisão geral efetuada e garantia oferecida pela loja sobre os componentes elétricos e mecânicos." },
@@ -99,9 +99,9 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "oficina-pombal": {
-      metaTitle: "Oficina de Bicicletas Figueira da Foz | Assistência Mecânica Profissional",
-      metaDesc: "Oficina de mecânica de bicicletas na Lavos, Figueira da Foz, Figueira da Foz. Técnicos formados com experiência em competição. Revisões de suspensões, travões e e-bikes.",
-      h1: "Oficina de Bicicletas em Figueira da Foz",
+      metaTitle: "Oficina de Bicicletas Pombal | Assistência Mecânica Profissional",
+      metaDesc: "Oficina de mecânica de bicicletas na Mata Mourisca, Pombal. Técnicos formados com experiência em competição. Revisões de suspensões, travões e e-bikes.",
+      h1: "Oficina de Bicicletas em Pombal",
       subtitle: "Mecânica Especializada de Nível Profissional",
       intro: "A nossa oficina é referência nacional na manutenção de bicicletas desportivas de alta performance. Contamos com técnicos certificados e ferramentas oficiais para revisões completas de suspensões, travões e sistemas eletrónicos.",
       features: [
@@ -113,8 +113,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "assistencia-bosch": {
-      metaTitle: "Assistência Bosch E-Bike | Centro Técnico Autorizado em Figueira da Foz",
-      metaDesc: "Centro de assistência oficial Bosch E-Bike. Diagnóstico eletrónico de avarias, atualizações de software e substituição de componentes oficiais na Route N109.",
+      metaTitle: "Assistência Bosch E-Bike | Centro Técnico Autorizado em Pombal",
+      metaDesc: "Centro de assistência oficial Bosch E-Bike. Diagnóstico eletrónico de avarias, atualizações de software e substituição de componentes oficiais na Agostinho BIKES.",
       h1: "Assistência Técnica Bosch E-Bike",
       subtitle: "Serviço Oficial e Técnico Certificado Bosch",
       intro: "Como centro técnico certificado Bosch E-Bike, temos acesso às ferramentas proprietárias de diagnóstico e reparação. Fazemos reparações de motores, substituições em garantia e atualizações do sistema inteligente.",
@@ -128,7 +128,7 @@ export const SEO_DATA = {
     },
     "diagnostico-bosch": {
       metaTitle: "Diagnóstico Bosch E-Bike | Teste de Capacidade de Bateria",
-      metaDesc: "Faça o diagnóstico eletrónico completo ao sistema da sua bicicleta Bosch na Route N109. Obtenha o relatório de saúde da bateria (Capacity Test).",
+      metaDesc: "Faça o diagnóstico eletrónico completo ao sistema da sua bicicleta Bosch na Agostinho BIKES. Obtenha o relatório de saúde da bateria (Capacity Test).",
       h1: "Diagnóstico Oficial Bosch",
       subtitle: "Relatório de Saúde de Bateria e Componentes",
       intro: "Quer comprar uma e-bike usada ou quer saber a real saúde da sua bateria Bosch? O nosso teste de capacidade oficial descarrega e analisa a bateria com carga controlada, fornecendo um certificado de capacidade real em percentagem.",
@@ -141,11 +141,11 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "diagnostico-dji-avinox": {
-      metaTitle: "Diagnóstico DJI Avinox | Assistência Oficial Amflow Figueira da Foz",
-      metaDesc: "Oficina certificada para diagnóstico e reparação do sistema DJI Avinox em Portugal. Atualizações de firmware e atualizações do motor na Route N109.",
+      metaTitle: "Diagnóstico DJI Avinox | Assistência Oficial Amflow Pombal",
+      metaDesc: "Oficina certificada para diagnóstico e reparação do sistema DJI Avinox em Portugal. Atualizações de firmware e atualizações do motor na Agostinho BIKES.",
       h1: "Diagnóstico DJI Avinox",
       subtitle: "Líderes na Assistência ao Novo Sistema DJI Avinox",
-      intro: "O motor DJI Avinox veio revolucionar o mercado de E-MTB. Na Route N109, somos parceiros oficiais e temos formação específica para efetuar diagnósticos eletrónicos, atualizações de firmware e afinações na entrega de potência do motor.",
+      intro: "O motor DJI Avinox veio revolucionar o mercado de E-MTB. Na Agostinho BIKES, somos parceiros oficiais e temos formação específica para efetuar diagnósticos eletrónicos, atualizações de firmware e afinações na entrega de potência do motor.",
       features: [
         { title: "Diagnóstico Via App e Desktop", desc: "Interface direta com os servidores DJI para calibração fina de torque e sensores de cadência." },
         { title: "Assistência Autorizada Amflow", desc: "Manutenção e diagnóstico especializado em toda a cablagem, baterias e ecrãs do ecossistema DJI." },
@@ -155,8 +155,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "orcamento": {
-      metaTitle: "Pedir Orçamento | Route N109 Figueira da Foz",
-      metaDesc: "Solicite um orçamento para peças, componentes ou montagem personalizada da sua bicicleta. Resposta rápida via WhatsApp na Route N109.",
+      metaTitle: "Pedir Orçamento | Agostinho BIKES Pombal",
+      metaDesc: "Solicite um orçamento para peças, componentes ou montagem personalizada da sua bicicleta. Resposta rápida via WhatsApp na Agostinho BIKES.",
       h1: "Pedido de Orçamento",
       subtitle: "Cotações Rápidas para Peças e Montagens",
       intro: "Precisa de pastilhas de travão, pneus novos, upgrades de transmissão ou quer saber o preço de uma montagem personalizada? Preencha o formulário abaixo e receba uma proposta rápida e sem compromisso.",
@@ -169,8 +169,8 @@ export const SEO_DATA = {
       image: "/images/about/specialized_fit.webp"
     },
     "marcacao-oficina": {
-      metaTitle: "Marcação de Oficina | Route N109 Lavos, Figueira da Foz",
-      metaDesc: "Agende a sua revisão de suspensão, sangramento de travões ou diagnóstico Bosch/DJI Avinox. Marque o seu serviço de oficina na Route N109.",
+      metaTitle: "Marcação de Oficina | Agostinho BIKES Mata Mourisca",
+      metaDesc: "Agende a sua revisão de suspensão, sangramento de travões ou diagnóstico Bosch/DJI Avinox. Marque o seu serviço de oficina na Agostinho BIKES.",
       h1: "Marcação de Oficina",
       subtitle: "Agende a Manutenção da sua Bicicleta",
       intro: "Evite tempos de espera. Agende a revisão da sua máquina de forma rápida. O nosso mecânico de nível mundial (Taça do Mundo UCI MTB) efetuará o diagnóstico e manutenção com a máxima precisão.",
@@ -185,22 +185,22 @@ export const SEO_DATA = {
   },
   en: {
     "mondraker": {
-      metaTitle: "Mondraker Portugal | Route N109 Official Dealer",
-      metaDesc: "Complete range of Mondraker bikes in Portugal. Buy your Mondraker Crafty, F-Podium, Neat or Dune E-MTB with Forward Geometry at Route N109 in Figueira da Foz.",
+      metaTitle: "Mondraker Portugal | Agostinho BIKES Official Dealer",
+      metaDesc: "Complete range of Mondraker bikes in Portugal. Buy your Mondraker Crafty, F-Podium or Dune E-MTB with Forward Geometry at Agostinho BIKES in Pombal.",
       h1: "Mondraker Portugal",
       subtitle: "Forward Geometry & Zero Suspension System",
       intro: "Mondraker is one of the most innovative mountain bike and E-MTB brands in the world. Renowned for its exclusive technologies and high-performance carbon frames, it is the ideal choice for Enduro, Downhill and Trail.",
       features: [
         { title: "Forward Geometry", desc: "Superior control, stability at high speed and increased safety on steep descents." },
         { title: "Zero Suspension System", desc: "Extremely efficient rear suspension system, neutral and eliminating pedal kickback." },
-        { title: "Full E-MTB Range", desc: "Acclaimed models such as Mondraker Crafty, Neat Carbon and the all-new Dune E-MTB Light." }
+        { title: "Full E-MTB Range", desc: "Acclaimed models such as Mondraker Crafty Carbon and the all-new Dune E-MTB Light." }
       ],
       formType: "budget",
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.43.53.webp"
     },
     "bicicletas-eletricas": {
-      metaTitle: "Electric Bikes | Route N109 E-Bike Shop",
-      metaDesc: "Discover the best electric bikes on the market. Official dealer of Mondraker with official Bosch, DJI Avinox and TQ-Systems technical assistance in Figueira da Foz.",
+      metaTitle: "Electric Bikes | Agostinho BIKES E-Bike Shop",
+      metaDesc: "Discover the best electric bikes on the market. Official dealer of Mondraker with official Bosch, DJI Avinox  technical assistance in Pombal.",
       h1: "Electric Bikes (E-Bikes)",
       subtitle: "The Mobility and Performance Revolution",
       intro: "Electric bikes have redefined the limits of cycling. As an official Mondraker dealer and service center, we offer the highest range of sporty e-bikes with reference motors.",
@@ -214,7 +214,7 @@ export const SEO_DATA = {
     },
     "mondraker-crafty": {
       metaTitle: "Mondraker Crafty | Premium Mountain E-MTB in Portugal",
-      metaDesc: "Buy the Mondraker Crafty at Route N109. The best-selling full-suspension E-MTB, equipped with Bosch Performance CX motor and Forward Geometry.",
+      metaDesc: "Buy the Mondraker Crafty at Agostinho BIKES. The best-selling full-suspension E-MTB, equipped with Bosch Performance CX motor and Forward Geometry.",
       h1: "Mondraker Crafty",
       subtitle: "The Benchmark of Enduro E-MTBs",
       intro: "The Mondraker Crafty is the ultimate electric Enduro machine. With full suspension, aggressive geometry and the intelligent Bosch Smart System, it is ready to climb any mountain and descend the roughest trails.",
@@ -228,7 +228,7 @@ export const SEO_DATA = {
     },
     "mondraker-summum": {
       metaTitle: "Mondraker Summum | Premium Downhill Racing Bike",
-      metaDesc: "Discover the Mondraker Summum at Route N109. The ultimate pure downhill machine with Stealth Carbon frame, 200mm suspension, and Forward Geometry.",
+      metaDesc: "Discover the Mondraker Summum at Agostinho BIKES. The ultimate pure downhill machine with Stealth Carbon frame, 200mm suspension, and Forward Geometry.",
       h1: "Mondraker Summum",
       subtitle: "Maximum Velocity and Control in Downhill",
       intro: "The Mondraker Summum is the downhill bike of choice for the world's fastest riders. Designed to win on the UCI World Cup circuit, it combines an ultra-lightweight carbon frame with an extremely efficient suspension system.",
@@ -241,8 +241,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.34.53.webp"
     },
     "mondraker-zendit": {
-      metaTitle: "Mondraker Zendit | Versatile and Comfortable Bike in Figueira da Foz",
-      metaDesc: "Discover the Mondraker Zendit at Route N109. Ideal bikes for daily mobility or recreational trails, featuring Mondraker durability.",
+      metaTitle: "Mondraker Zendit | Versatile and Comfortable Bike in Pombal",
+      metaDesc: "Discover the Mondraker Zendit at Agostinho BIKES. Ideal bikes for daily mobility or recreational trails, featuring Mondraker durability.",
       h1: "Mondraker Zendit",
       subtitle: "Uncompromising Comfort and Versatility",
       intro: "The Mondraker Zendit was designed for cyclists looking for a robust and extremely comfortable machine for daily commutes and weekend off-road adventures.",
@@ -256,7 +256,7 @@ export const SEO_DATA = {
     },
     "e-bikes": {
       metaTitle: "E-Bikes Portugal | Specialized Sales & Service",
-      metaDesc: "Your reference electric bike (E-Bikes) shop in Figueira da Foz. Official Mondraker range with official Bosch, DJI and TQ-Systems technical assistance.",
+      metaDesc: "Your reference electric bike (E-Bikes) shop in Pombal. Official Mondraker range with official Bosch, DJI  technical assistance.",
       h1: "E-Bikes Portugal",
       subtitle: "Go Further, Climb Faster",
       intro: "Electric bicycle technology has democratized access to the mountains and transformed urban mobility. Find the widest variety of premium Mondraker e-bikes in our shop with personalized biomechanical advice.",
@@ -270,10 +270,10 @@ export const SEO_DATA = {
     },
     "e-bikes-usadas": {
       metaTitle: "Used E-Bikes | Second-Hand Electric Bikes with Warranty",
-      metaDesc: "Buy used E-Bikes with total confidence. All bicycles are subjected to official battery diagnostics and mechanical service at Route N109.",
+      metaDesc: "Buy used E-Bikes with total confidence. All bicycles are subjected to official battery diagnostics and mechanical service at Agostinho BIKES.",
       h1: "Used & Reconditioned E-Bikes",
       subtitle: "Premium Performance at Opportunity Prices",
-      intro: "Buying a used electric bike does not have to be a risk. At Route N109, each used e-bike is electronically and mechanically inspected by specialized technicians. We deliver the official battery health report.",
+      intro: "Buying a used electric bike does not have to be a risk. At Agostinho BIKES, each used e-bike is electronically and mechanically inspected by specialized technicians. We deliver the official battery health report.",
       features: [
         { title: "Battery Certificate", desc: "Official test of residual battery capacity in percentage (e.g. 95% health remaining)." },
         { title: "Mechanical Warranty", desc: "General service carried out and warranty offered by the shop on electrical and mechanical components." },
@@ -283,9 +283,9 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "oficina-pombal": {
-      metaTitle: "Figueira da Foz Bike Workshop | Professional Mechanical Assistance",
-      metaDesc: "Bicycle mechanical workshop in Lavos, Figueira da Foz, Figueira da Foz. Trained technicians with racing experience. Suspension, brakes and e-bike servicing.",
-      h1: "Bicycle Workshop in Figueira da Foz",
+      metaTitle: "Pombal Bike Workshop | Professional Mechanical Assistance",
+      metaDesc: "Bicycle mechanical workshop in Mata Mourisca, Pombal. Trained technicians with racing experience. Suspension, brakes and e-bike servicing.",
+      h1: "Bicycle Workshop in Pombal",
       subtitle: "Professional-Level Specialized Mechanics",
       intro: "Our workshop is a national benchmark in the maintenance of high-performance sports bikes. We have certified technicians and official tools for complete suspension, brake and electronic system services.",
       features: [
@@ -297,8 +297,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "assistencia-bosch": {
-      metaTitle: "Bosch E-Bike Support | Authorized Technical Center in Figueira da Foz",
-      metaDesc: "Official Bosch E-Bike service center. Electronic fault diagnostics, software updates and official component replacements at Route N109.",
+      metaTitle: "Bosch E-Bike Support | Authorized Technical Center in Pombal",
+      metaDesc: "Official Bosch E-Bike service center. Electronic fault diagnostics, software updates and official component replacements at Agostinho BIKES.",
       h1: "Bosch E-Bike Technical Assistance",
       subtitle: "Official Service and Certified Bosch Technician",
       intro: "As a certified Bosch E-Bike technical center, we have access to proprietary diagnostic and repair tools. We carry out motor repairs, warranty replacements and smart system updates.",
@@ -312,7 +312,7 @@ export const SEO_DATA = {
     },
     "diagnostico-bosch": {
       metaTitle: "Bosch E-Bike Diagnostics | Battery Capacity Test",
-      metaDesc: "Get a full electronic diagnostic of your Bosch bike system at Route N109. Obtain the official battery health report (Capacity Test).",
+      metaDesc: "Get a full electronic diagnostic of your Bosch bike system at Agostinho BIKES. Obtain the official battery health report (Capacity Test).",
       h1: "Official Bosch Diagnostics",
       subtitle: "Battery and Component Health Report",
       intro: "Looking to buy a used e-bike or want to know the real health of your Bosch battery? Our official capacity test discharges and analyzes the battery under controlled load, providing a real capacity certificate in percentage.",
@@ -325,11 +325,11 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "diagnostico-dji-avinox": {
-      metaTitle: "DJI Avinox Diagnostics | Official Amflow Figueira da Foz Support",
-      metaDesc: "Certified workshop for DJI Avinox diagnosis and repair in Portugal. Firmware updates and motor tuning at Route N109.",
+      metaTitle: "DJI Avinox Diagnostics | Official Amflow Pombal Support",
+      metaDesc: "Certified workshop for DJI Avinox diagnosis and repair in Portugal. Firmware updates and motor tuning at Agostinho BIKES.",
       h1: "DJI Avinox Diagnostics",
       subtitle: "Leaders in Technical Support for the New DJI Avinox System",
-      intro: "The DJI Avinox motor has revolutionized the E-MTB market. At Route N109, we are official partners and have specific training to carry out electronic diagnostics, firmware updates and power delivery tuning.",
+      intro: "The DJI Avinox motor has revolutionized the E-MTB market. At Agostinho BIKES, we are official partners and have specific training to carry out electronic diagnostics, firmware updates and power delivery tuning.",
       features: [
         { title: "App & Desktop Diagnostics", desc: "Direct interface with DJI servers for fine calibration of torque and cadence sensors." },
         { title: "Amflow Authorized Support", desc: "Specialized maintenance and diagnostics across all wiring, batteries and screens of the DJI ecosystem." },
@@ -339,8 +339,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "orcamento": {
-      metaTitle: "Request a Quote | Route N109 Figueira da Foz",
-      metaDesc: "Request a quote for parts, components or a custom build of your bicycle. Quick response via WhatsApp at Route N109.",
+      metaTitle: "Request a Quote | Agostinho BIKES Pombal",
+      metaDesc: "Request a quote for parts, components or a custom build of your bicycle. Quick response via WhatsApp at Agostinho BIKES.",
       h1: "Request a Quote",
       subtitle: "Quick Quotes for Parts and Custom Builds",
       intro: "Need brake pads, new tires, drivetrain upgrades or want to know the price for a custom build? Fill out the form below and receive a quick proposal without obligation.",
@@ -353,8 +353,8 @@ export const SEO_DATA = {
       image: "/images/about/specialized_fit.webp"
     },
     "marcacao-oficina": {
-      metaTitle: "Workshop Booking | Route N109 Lavos, Figueira da Foz",
-      metaDesc: "Schedule your suspension service, brake bleed or Bosch/DJI Avinox diagnosis. Book your workshop service at Route N109.",
+      metaTitle: "Workshop Booking | Agostinho BIKES Mata Mourisca",
+      metaDesc: "Schedule your suspension service, brake bleed or Bosch/DJI Avinox diagnosis. Book your workshop service at Agostinho BIKES.",
       h1: "Workshop Booking",
       subtitle: "Schedule Your Bicycle Maintenance",
       intro: "Avoid waiting times. Schedule your machine service quickly. Our world-class mechanic (UCI MTB World Cup) will perform diagnostics and maintenance with absolute precision.",
@@ -369,22 +369,22 @@ export const SEO_DATA = {
   },
   es: {
     "mondraker": {
-      metaTitle: "Mondraker España | Distribuidor Oficial Route N109",
-      metaDesc: "Gama completa de bicicletas Mondraker en España. Compra tu E-MTB Mondraker Crafty, F-Podium, Neat o Dune con Forward Geometry en Route N109.",
+      metaTitle: "Mondraker España | Distribuidor Oficial Agostinho BIKES",
+      metaDesc: "Gama completa de bicicletas Mondraker en España. Compra tu E-MTB Mondraker Crafty, F-Podium o Dune con Forward Geometry en Agostinho BIKES.",
       h1: "Mondraker España",
       subtitle: "Forward Geometry y Zero Suspension System",
       intro: "Mondraker es una de las marcas de MTB y E-MTB más innovadoras del mundo. Reconocida por sus tecnologías exclusivas y cuadros de carbono de alto rendimiento, es la elección perfecta para Enduro, Downhill y Trail.",
       features: [
         { title: "Forward Geometry", desc: "Control superior, estabilidad a alta velocidad y mayor seguridad en descensos empinados." },
         { title: "Zero Suspension System", desc: "Sistema de suspensión trasera extremadamente eficiente, neutro y libre de retroceso de pedal." },
-        { title: "Gama Completa E-MTB", desc: "Modelos aclamados como Mondraker Crafty, Neat Carbon y la nueva Dune E-MTB Light." }
+        { title: "Gama Completa E-MTB", desc: "Modelos aclamados como Mondraker Crafty Carbon y la nueva Dune E-MTB Light." }
       ],
       formType: "budget",
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.43.53.webp"
     },
     "bicicletas-eletricas": {
-      metaTitle: "Bicicletas Eléctricas | Tienda de E-Bikes Route N109",
-      metaDesc: "Descubre las mejores bicicletas eléctricas. Distribuidor oficial de Mondraker con servicio técnico oficial Bosch, DJI Avinox y TQ-Systems en Figueira da Foz.",
+      metaTitle: "Bicicletas Eléctricas | Tienda de E-Bikes Agostinho BIKES",
+      metaDesc: "Descubre las mejores bicicletas eléctricas. Distribuidor oficial de Mondraker con servicio técnico oficial Bosch, DJI Avinox  en Pombal.",
       h1: "Bicicletas Eléctricas (E-Bikes)",
       subtitle: "La Revolución de la Movilidad y del Rendimiento",
       intro: "Las bicicletas eléctricas han redefinido los límites del ciclismo. Como distribuidor y centro técnico oficial Mondraker, ofrecemos la gama más alta de e-bikes deportivas con motores de referencia.",
@@ -398,7 +398,7 @@ export const SEO_DATA = {
     },
     "mondraker-crafty": {
       metaTitle: "Mondraker Crafty | E-MTB de Montaña Premium",
-      metaDesc: "Compra la Mondraker Crafty en Route N109. La E-MTB de doble suspensión más vendida, equipada con motor Bosch Performance CX y Forward Geometry.",
+      metaDesc: "Compra la Mondraker Crafty en Agostinho BIKES. La E-MTB de doble suspensión más vendida, equipada con motor Bosch Performance CX y Forward Geometry.",
       h1: "Mondraker Crafty",
       subtitle: "La Referencia de las E-MTB de Enduro",
       intro: "La Mondraker Crafty es la máquina definitiva de Enduro eléctrico. Con doble suspensión, geometría agresiva y el sistema inteligente Bosch Smart System, está lista para subir cualquier montaña y bajar los senderos más duros.",
@@ -412,7 +412,7 @@ export const SEO_DATA = {
     },
     "mondraker-summum": {
       metaTitle: "Mondraker Summum | Bicicleta Downhill de Competición Premium",
-      metaDesc: "Descubre la Mondraker Summum en Route N109. La máquina definitiva de downhill puro con cuadro Stealth Carbon, suspensión de 200mm y Forward Geometry.",
+      metaDesc: "Descubre la Mondraker Summum en Agostinho BIKES. La máquina definitiva de downhill puro con cuadro Stealth Carbon, suspensión de 200mm y Forward Geometry.",
       h1: "Mondraker Summum",
       subtitle: "Máxima Velocidad y Control en Downhill",
       intro: "La Mondraker Summum es la bicicleta de downhill preferida por los corredores más rápidos del mundo. Diseñada para vencer en la Copa del Mundo UCI, combina un cuadro de carbono ultra ligero con un sistema de suspensión altamente eficiente.",
@@ -426,7 +426,7 @@ export const SEO_DATA = {
     },
     "mondraker-zendit": {
       metaTitle: "Mondraker Zendit | Bicicleta Versátil y Confortable",
-      metaDesc: "Conoce la Mondraker Zendit en Route N109. Bicicletas ideales para la movilidad diaria o senderos recreativos, con la durabilidad de Mondraker.",
+      metaDesc: "Conoce la Mondraker Zendit en Agostinho BIKES. Bicicletas ideales para la movilidad diaria o senderos recreativos, con la durabilidad de Mondraker.",
       h1: "Mondraker Zendit",
       subtitle: "Confort y Versatilidad sin Compromisos",
       intro: "La Mondraker Zendit está diseñada para ciclistas que buscan una máquina robusta y muy cómoda para desplazamientos diarios y aventuras de fin de semana.",
@@ -440,7 +440,7 @@ export const SEO_DATA = {
     },
     "e-bikes": {
       metaTitle: "E-Bikes España | Venta y Servicio Técnico Especializado",
-      metaDesc: "Tu tienda de referencia de bicicletas eléctricas en Figueira da Foz. Gama oficial Mondraker con soporte oficial de Bosch, DJI y TQ-Systems.",
+      metaDesc: "Tu tienda de referencia de bicicletas eléctricas en Pombal. Gama oficial Mondraker con soporte oficial de Bosch, DJI .",
       h1: "E-Bikes España",
       subtitle: "Llega Más Lejos, Sube Más Rápido",
       intro: "Las bicicletas eléctricas han democratizado el acceso a la montaña y transformado la movilidad. Encuentra la mayor variedad de e-bikes deportivas Mondraker con estudio biomecánico personalizado.",
@@ -454,10 +454,10 @@ export const SEO_DATA = {
     },
     "e-bikes-usadas": {
       metaTitle: "E-Bikes Usadas | Bicicletas Eléctricas de Ocasión con Garantía",
-      metaDesc: "Compra E-Bikes usadas con total tranquilidad. Todas las bicicletas son sometidas a diagnóstico de batería oficial y revisión en Route N109.",
+      metaDesc: "Compra E-Bikes usadas con total tranquilidad. Todas las bicicletas son sometidas a diagnóstico de batería oficial y revisión en Agostinho BIKES.",
       h1: "E-Bikes Usadas y Reacondicionadas",
       subtitle: "Rendimiento Premium a Precios de Oportunidad",
-      intro: "Comprar una bicicleta eléctrica usada no tiene por qué ser un riesgo. En Route N109, cada e-bike usada es evaluada electrónica y mecánicamente. Entregamos un reporte de salud de la batería.",
+      intro: "Comprar una bicicleta eléctrica usada no tiene por qué ser un riesgo. En Agostinho BIKES, cada e-bike usada es evaluada electrónica y mecánicamente. Entregamos un reporte de salud de la batería.",
       features: [
         { title: "Certificado de Batería", desc: "Prueba oficial de capacidad de la batería (ej: 95% de vida útil restante)." },
         { title: "Garantía Mecánica", desc: "Revisión completa realizada y garantía de la tienda en componentes mecánicos y eléctricos." },
@@ -467,9 +467,9 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "oficina-pombal": {
-      metaTitle: "Taller de Bicicletas Figueira da Foz | Mecánica Profesional",
-      metaDesc: "Taller mecánico de bicicletas en Figueira da Foz. Técnicos calificados con experiencia en carreras. Suspensiones, frenos y mantenimiento de e-bikes.",
-      h1: "Taller de Bicicletas en Figueira da Foz",
+      metaTitle: "Taller de Bicicletas Pombal | Mecánica Profesional",
+      metaDesc: "Taller mecánico de bicicletas en Pombal. Técnicos calificados con experiencia en carreras. Suspensiones, frenos y mantenimiento de e-bikes.",
+      h1: "Taller de Bicicletas en Pombal",
       subtitle: "Mecánica Especializada de Nivel Profesional",
       intro: "Nuestro taller es una referencia en el mantenimiento de bicicletas deportivas de alto rendimiento. Contamos con técnicos certificados y herramientas oficiales para mantenimiento de suspensiones, frenos y sistemas eléctricos.",
       features: [
@@ -482,7 +482,7 @@ export const SEO_DATA = {
     },
     "assistencia-bosch": {
       metaTitle: "Servicio Técnico Bosch E-Bike | Centro Autorizado",
-      metaDesc: "Centro de soporte técnico oficial Bosch E-Bike. Diagnóstico de averías, actualizaciones de software y piezas originales en Route N109.",
+      metaDesc: "Centro de soporte técnico oficial Bosch E-Bike. Diagnóstico de averías, actualizaciones de software y piezas originales en Agostinho BIKES.",
       h1: "Soporte Técnico Bosch E-Bike",
       subtitle: "Servicio Oficial y Técnicos Certificados Bosch",
       intro: "Como centro técnico certificado Bosch E-Bike, disponemos de las herramientas de diagnóstico exclusivas. Hacemos reparaciones, trámites de garantía y actualizaciones del sistema inteligente.",
@@ -496,7 +496,7 @@ export const SEO_DATA = {
     },
     "diagnostico-bosch": {
       metaTitle: "Diagnóstico Bosch E-Bike | Test de Capacidad de Batería",
-      metaDesc: "Realiza el diagnóstico electrónico completo a tu bicicleta Bosch en Route N109. Obtén el informe oficial de salud de batería (Capacity Test).",
+      metaDesc: "Realiza el diagnóstico electrónico completo a tu bicicleta Bosch en Agostinho BIKES. Obtén el informe oficial de salud de batería (Capacity Test).",
       h1: "Diagnóstico Oficial Bosch",
       subtitle: "Informe de Salud de Batería y Sistemas",
       intro: "¿Vas a comprar una e-bike usada o quieres comprobar el estado de tu batería Bosch? Nuestro test oficial descarga y analiza la batería bajo carga controlada, certificando el porcentaje real de salud.",
@@ -509,11 +509,11 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "diagnostico-dji-avinox": {
-      metaTitle: "Diagnóstico DJI Avinox | Soporte Oficial Amflow Figueira da Foz",
-      metaDesc: "Taller certificado para diagnóstico y reparación de DJI Avinox en Portugal. Actualizaciones de firmware y ajustes de potencia en Route N109.",
+      metaTitle: "Diagnóstico DJI Avinox | Soporte Oficial Amflow Pombal",
+      metaDesc: "Taller certificado para diagnóstico y reparación de DJI Avinox en Portugal. Actualizaciones de firmware y ajustes de potencia en Agostinho BIKES.",
       h1: "Diagnóstico DJI Avinox",
       subtitle: "Expertos en el Soporte del Nuevo Sistema DJI Avinox",
-      intro: "El motor DJI Avinox ha revolucionado el mercado E-MTB. En Route N109 somos socios certificados para efectuar diagnósticos electrónicos, actualizaciones de firmware y personalización de modos de potencia.",
+      intro: "El motor DJI Avinox ha revolucionado el mercado E-MTB. En Agostinho BIKES somos socios certificados para efectuar diagnósticos electrónicos, actualizaciones de firmware y personalización de modos de potencia.",
       features: [
         { title: "Diagnóstico vía App y Desktop", desc: "Conexión directa con servidores DJI para calibración de sensores y torque." },
         { title: "Soporte Autorizado Amflow", desc: "Servicio especializado en cableado, baterías, mandos y pantallas del ecosistema DJI." },
@@ -523,8 +523,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "orcamento": {
-      metaTitle: "Solicitar Presupuesto | Route N109 Figueira da Foz",
-      metaDesc: "Solicita un presupuesto para componentes, piezas o montaje a la carta de tu bicicleta. Contacto directo por WhatsApp en Route N109.",
+      metaTitle: "Solicitar Presupuesto | Agostinho BIKES Pombal",
+      metaDesc: "Solicita un presupuesto para componentes, piezas o montaje a la carta de tu bicicleta. Contacto directo por WhatsApp en Agostinho BIKES.",
       h1: "Solicitud de Presupuesto",
       subtitle: "Precios para Piezas, Accesorios y Montajes",
       intro: "¿Necesitas neumáticos nuevos, pastillas de freno, mejoras en la transmisión o quieres cotizar una bici a la carta? Rellena el formulario y recibe una propuesta ágil sin compromiso.",
@@ -537,8 +537,8 @@ export const SEO_DATA = {
       image: "/images/about/specialized_fit.webp"
     },
     "marcacao-oficina": {
-      metaTitle: "Cita de Taller | Route N109 Lavos, Figueira da Foz",
-      metaDesc: "Reserva tu cita para mantenimiento de suspensiones, purgado de frenos o diagnóstico Bosch/DJI. Agenda tu servicio en Route N109.",
+      metaTitle: "Cita de Taller | Agostinho BIKES Mata Mourisca",
+      metaDesc: "Reserva tu cita para mantenimiento de suspensiones, purgado de frenos o diagnóstico Bosch/DJI. Agenda tu servicio en Agostinho BIKES.",
       h1: "Cita de Taller",
       subtitle: "Agenda el Mantenimiento de tu Bicicleta",
       intro: "Evita esperas prolongadas. Reserva el servicio de tu máquina con antelación. Nuestro mecánico certificado de nivel de Copa del Mundo realizará el trabajo con total precisión.",
@@ -553,22 +553,22 @@ export const SEO_DATA = {
   },
   fr: {
     "mondraker": {
-      metaTitle: "Mondraker France | Revendeur Officiel Route N109",
-      metaDesc: "Gamme complète de vélos Mondraker en France. Achetez votre E-MTB Mondraker Crafty, F-Podium, Neat ou Dune avec Forward Geometry chez Route N109.",
+      metaTitle: "Mondraker France | Revendeur Officiel Agostinho BIKES",
+      metaDesc: "Gamme complète de vélos Mondraker en France. Achetez votre E-MTB Mondraker Crafty, F-Podium ou Dune avec Forward Geometry chez Agostinho BIKES.",
       h1: "Mondraker France",
       subtitle: "Forward Geometry et Zero Suspension System",
       intro: "Mondraker est l'une des marques de VTT et d'E-MTB les plus innovantes au monde. Reconnue pour ses technologies exclusives et ses cadres en carbone haute performance, c'est le choix idéal pour l'Enduro, la Descente et le Trail.",
       features: [
         { title: "Forward Geometry", desc: "Contrôle supérieur, stabilité à grande vitesse et sécurité accrue dans les pentes raides." },
         { title: "Zero Suspension System", desc: "Système de suspension arrière ultra-efficace, neutre et éliminant tout retour de pédale." },
-        { title: "Gamme Complète E-MTB", desc: "Modèles phares comme la Mondraker Crafty, la Neat Carbon et la toute nouvelle Dune E-MTB Light." }
+        { title: "Gamme Complète E-MTB", desc: "Modèles phares comme la Mondraker Crafty, la toute nouvelle Dune E-MTB Light." }
       ],
       formType: "budget",
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.43.53.webp"
     },
     "bicicletas-eletricas": {
-      metaTitle: "Vélos Électriques | Magasin E-Bikes Route N109",
-      metaDesc: "Découvrez les meilleurs vélos électriques du marché. Revendeur officiel Mondraker avec service agréé Bosch, DJI Avinox et TQ-Systems à Figueira da Foz.",
+      metaTitle: "Vélos Électriques | Magasin E-Bikes Agostinho BIKES",
+      metaDesc: "Découvrez les meilleurs vélos électriques du marché. Revendeur officiel Mondraker avec service agréé Bosch, DJI Avinox  à Pombal.",
       h1: "Vélos Électriques (E-Bikes)",
       subtitle: "La Révolution de la Mobilité et de la Performance",
       intro: "Les vélos électriques ont redéfini les limites du cyclisme. En tant que revendeur et centre technique officiel Mondraker, nous proposons le haut de gamme des vélos électriques sportifs avec des moteurs de référence.",
@@ -582,7 +582,7 @@ export const SEO_DATA = {
     },
     "mondraker-crafty": {
       metaTitle: "Mondraker Crafty | E-MTB de Montagne Haut de Gamme",
-      metaDesc: "Achetez la Mondraker Crafty chez Route N109. L'E-MTB tout suspendu le plus vendu, équipé du moteur Bosch Performance CX et de la Forward Geometry.",
+      metaDesc: "Achetez la Mondraker Crafty chez Agostinho BIKES. L'E-MTB tout suspendu le plus vendu, équipé du moteur Bosch Performance CX et de la Forward Geometry.",
       h1: "Mondraker Crafty",
       subtitle: "La Référence des E-MTB d'Enduro",
       intro: "La Mondraker Crafty est la machine d'Enduro électrique par excellence. Tout suspendu, dotée d'une géométrie agressive et du système intelligent Bosch Smart System, elle surmonte tous les obstacles.",
@@ -596,7 +596,7 @@ export const SEO_DATA = {
     },
     "mondraker-summum": {
       metaTitle: "Mondraker Summum | Vélo Downhill de Compétition Premium",
-      metaDesc: "Découvrez la Mondraker Summum chez Route N109. La machine ultime de descente avec cadre Stealth Carbon, suspension de 200mm et Forward Geometry.",
+      metaDesc: "Découvrez la Mondraker Summum chez Agostinho BIKES. La machine ultime de descente avec cadre Stealth Carbon, suspension de 200mm et Forward Geometry.",
       h1: "Mondraker Summum",
       subtitle: "Vitesse Maximale et Contrôle en Descente",
       intro: "Le Mondraker Summum est le vélo de descente de choix pour les pilotes les plus rapides du monde. Conçu pour gagner en Coupe du Monde UCI, il associe un cadre en carbone ultra-léger à une suspension extrêmement efficace.",
@@ -610,7 +610,7 @@ export const SEO_DATA = {
     },
     "mondraker-zendit": {
       metaTitle: "Mondraker Zendit | Vélo Polyvalent et Confortable",
-      metaDesc: "Découvrez la Mondraker Zendit chez Route N109. Vélos idéaux pour le vélotaf ou les sentiers loisirs, avec la solidité légendaire Mondraker.",
+      metaDesc: "Découvrez la Mondraker Zendit chez Agostinho BIKES. Vélos idéaux pour le vélotaf ou les sentiers loisirs, avec la solidité légendaire Mondraker.",
       h1: "Mondraker Zendit",
       subtitle: "Confort et Polyvalence sans Compromis",
       intro: "La Mondraker Zendit s'adresse aux cyclistes recherchant un vélo robuste et très confortable pour leurs trajets du quotidien et leurs sorties loisirs du week-end.",
@@ -624,7 +624,7 @@ export const SEO_DATA = {
     },
     "e-bikes": {
       metaTitle: "E-Bikes France | Vente et Entretien Spécialisé",
-      metaDesc: "Votre magasin de référence pour vélos électriques à Figueira da Foz. Gamme officielle Mondraker avec assistance certifiée Bosch, DJI et TQ-Systems.",
+      metaDesc: "Votre magasin de référence pour vélos électriques à Pombal. Gamme officielle Mondraker avec assistance certifiée Bosch, DJI .",
       h1: "E-Bikes France",
       subtitle: "Allez Plus Loin, Plus Vite",
       intro: "L'assistance électrique a démocratisé les sorties en montagne et transformé les déplacements. Découvrez en magasin un large choix de vélos électriques de sport Mondraker avec étude biomecanique personnalisée.",
@@ -638,10 +638,10 @@ export const SEO_DATA = {
     },
     "e-bikes-usadas": {
       metaTitle: "E-Bikes d'Occasion | Vélos Électriques Révisés et Garantis",
-      metaDesc: "Achetez votre e-bike d'occasion en toute sécurité. Diagnostic officiel de batterie et révision mécanique complète chez Route N109.",
+      metaDesc: "Achetez votre e-bike d'occasion en toute sécurité. Diagnostic officiel de batterie et révision mécanique complète chez Agostinho BIKES.",
       h1: "E-Bikes d'Occasion et Reconditionnés",
       subtitle: "La Performance Premium à Prix Réduit",
-      intro: "Acheter un vélo électrique d'occasion en toute confiance. Chez Route N109, chaque vélo d'occasion subit une batterie de tests électriques et mécaniques complets.",
+      intro: "Acheter un vélo électrique d'occasion en toute confiance. Chez Agostinho BIKES, chaque vélo d'occasion subit une batterie de tests électriques et mécaniques complets.",
       features: [
         { title: "Certificat de Batterie", desc: "Rapport de capacité résiduelle officielle de la batterie (ex: état de santé à 95%)." },
         { title: "Garantie Magasin", desc: "Révision complète effectuée et garantie offerte par le magasin sur les composants." },
@@ -651,9 +651,9 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "oficina-pombal": {
-      metaTitle: "Atelier Vélo Figueira da Foz | Service Mécanique Professionnel",
-      metaDesc: "Atelier de réparation de vélos à Figueira da Foz. Mécaniciens formés en compétition. Entretien de suspensions, purges de freins et e-bikes.",
-      h1: "Atelier de Vélos à Figueira da Foz",
+      metaTitle: "Atelier Vélo Pombal | Service Mécanique Professionnel",
+      metaDesc: "Atelier de réparation de vélos à Pombal. Mécaniciens formés en compétition. Entretien de suspensions, purges de freins et e-bikes.",
+      h1: "Atelier de Vélos à Pombal",
       subtitle: "Service Mécanique de Niveau Coupe du Monde",
       intro: "Notre atelier est réputé pour l'entretien des vélos de route et VTT haut de gamme. Nous disposons des outils officiels pour réviser vos suspensions, purger vos freins et mettre à jour vos systèmes.",
       features: [
@@ -665,8 +665,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "assistencia-bosch": {
-      metaTitle: "Service Bosch E-Bike | Centre Agréé à Figueira da Foz",
-      metaDesc: "Centre technique officiel Bosch E-Bike. Diagnostic de pannes, mises à jour de logiciels et pièces d'origine chez Route N109.",
+      metaTitle: "Service Bosch E-Bike | Centre Agréé à Pombal",
+      metaDesc: "Centre technique officiel Bosch E-Bike. Diagnostic de pannes, mises à jour de logiciels et pièces d'origine chez Agostinho BIKES.",
       h1: "Service Technique Bosch E-Bike",
       subtitle: "Expertise Officielle et Mécanicien Certifié Bosch",
       intro: "En tant que centre de service agréé Bosch E-Bike, nous accédons aux logiciels officiels de diagnostic pour réparer vos moteurs, gérer les garanties et mettre à jour vos consoles.",
@@ -680,7 +680,7 @@ export const SEO_DATA = {
     },
     "diagnostico-bosch": {
       metaTitle: "Diagnostic Bosch E-Bike | Test de Capacité de Batterie",
-      metaDesc: "Faites réviser le système électronique de votre vélo Bosch chez Route N109. Rapport officiel d'état de santé (Capacity Test).",
+      metaDesc: "Faites réviser le système électronique de votre vélo Bosch chez Agostinho BIKES. Rapport officiel d'état de santé (Capacity Test).",
       h1: "Diagnostic Officiel Bosch",
       subtitle: "Bilan de Santé de Batterie et Composants",
       intro: "Acheter un e-bike d'occasion ou vérifier l'usure de votre batterie Bosch ? Notre testeur officiel effectue des cycles de décharge contrôlée pour certifier son pourcentage réel de santé.",
@@ -693,11 +693,11 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "diagnostico-dji-avinox": {
-      metaTitle: "Diagnostic DJI Avinox | Support Officiel Amflow Figueira da Foz",
-      metaDesc: "Atelier agréé pour le diagnostic et la réparation DJI Avinox au Portugal. Mises à jour logicielles et réglages moteurs chez Route N109.",
+      metaTitle: "Diagnostic DJI Avinox | Support Officiel Amflow Pombal",
+      metaDesc: "Atelier agréé pour le diagnostic et la réparation DJI Avinox au Portugal. Mises à jour logicielles et réglages moteurs chez Agostinho BIKES.",
       h1: "Diagnostic DJI Avinox",
       subtitle: "Experts du Nouveau Système Motorisé DJI Avinox",
-      intro: "La motorisation DJI Avinox a transformé l'E-MTB. Chez Route N109, nous disposons des outils et de la formation pour le diagnostic, les mises à jour et le réglage de puissance.",
+      intro: "La motorisation DJI Avinox a transformé l'E-MTB. Chez Agostinho BIKES, nous disposons des outils et de la formation pour le diagnostic, les mises à jour et le réglage de puissance.",
       features: [
         { title: "Diagnostic App & Bureau", desc: "Connexion directe avec les serveurs DJI pour calibrer le couple et les capteurs." },
         { title: "Support Agréé Amflow", desc: "Maintenance experte des câblages, des batteries et des écrans tactiles DJI." },
@@ -707,8 +707,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "orcamento": {
-      metaTitle: "Demander un Devis | Route N109 Figueira da Foz",
-      metaDesc: "Demandez un devis pour pièces, composants ou montage sur mesure. Réponse rapide via WhatsApp chez Route N109.",
+      metaTitle: "Demander un Devis | Agostinho BIKES Pombal",
+      metaDesc: "Demandez un devis pour pièces, composants ou montage sur mesure. Réponse rapide via WhatsApp chez Agostinho BIKES.",
       h1: "Demande de Devis",
       subtitle: "Tarifs pour Pièces, Accessoires et Montages customisés",
       intro: "Besoin de pneus, de plaquettes de frein, d'un nouveau dérailleur ou d'un montage complet ? Remplissez le formulaire pour recevoir une proposition tarifaire rapidement.",
@@ -721,8 +721,8 @@ export const SEO_DATA = {
       image: "/images/about/specialized_fit.webp"
     },
     "marcacao-oficina": {
-      metaTitle: "Rendez-vous Atelier | Route N109 Lavos, Figueira da Foz",
-      metaDesc: "Réservez votre entretien de suspension, purge de frein ou diagnostic Bosch/DJI. Planifiez votre service chez Route N109.",
+      metaTitle: "Rendez-vous Atelier | Agostinho BIKES Mata Mourisca",
+      metaDesc: "Réservez votre entretien de suspension, purge de frein ou diagnostic Bosch/DJI. Planifiez votre service chez Agostinho BIKES.",
       h1: "Rendez-vous Atelier",
       subtitle: "Planifiez la Maintenance de Votre Vélo",
       intro: "Évitez l'attente en atelier. Réservez l'entretien de votre vélo. Notre mécanicien qualifié Coupe du Monde réalisera les travaux avec une précision absolue.",
@@ -737,22 +737,22 @@ export const SEO_DATA = {
   },
   de: {
     "mondraker": {
-      metaTitle: "Mondraker Deutschland | Route N109 Vertragshändler",
-      metaDesc: "Komplettes Sortiment an Mondraker-Bikes in Deutschland. Kaufen Sie Ihr Mondraker Crafty, F-Podium, Neat oder Dune E-MTB mit Forward Geometry bei Route N109.",
+      metaTitle: "Mondraker Deutschland | Agostinho BIKES Vertragshändler",
+      metaDesc: "Komplettes Sortiment an Mondraker-Bikes in Deutschland. Kaufen Sie Ihr Mondraker Crafty, F-Podium oder Dune E-MTB mit Forward Geometry bei Agostinho BIKES.",
       h1: "Mondraker Deutschland",
       subtitle: "Forward Geometry und Zero Suspension System",
       intro: "Mondraker ist eine der innovativsten MTB- und E-MTB-Marken der Welt. Bekannt für exklusive Technologien und leistungsstarke Carbonrahmen, ist es die ideale Wahl für Enduro, Downhill und Trail.",
       features: [
         { title: "Forward Geometry", desc: "Hervorragende Kontrolle, Stabilität bei hohen Geschwindigkeiten und mehr Sicherheit in steilen Abfahrten." },
         { title: "Zero Suspension System", desc: "Extrem effizientes Hinterbaufederungssystem, antriebsneutral und ohne Pedalrückschlag." },
-        { title: "Komplettes E-MTB-Sortiment", desc: "Erfolgsmodelle wie das Mondraker Crafty, Neat Carbon und das brandneue Dune E-MTB Light." }
+        { title: "Komplettes E-MTB-Sortiment", desc: "Erfolgsmodelle wie das Mondraker Crafty Carbon und das brandneue Dune E-MTB Light." }
       ],
       formType: "budget",
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.43.53.webp"
     },
     "bicicletas-eletricas": {
-      metaTitle: "Elektrofahrräder | E-Bike Shop Route N109",
-      metaDesc: "Entdecken Sie die besten E-Bikes auf dem Markt. Offizieller Händler für Mondraker mit zertifiziertem Bosch-, DJI Avinox- und TQ-Systems-Service in Figueira da Foz.",
+      metaTitle: "Elektrofahrräder | E-Bike Shop Agostinho BIKES",
+      metaDesc: "Entdecken Sie die besten E-Bikes auf dem Markt. Offizieller Händler für Mondraker mit zertifiziertem Bosch-, DJI Avinox- -Service in Pombal.",
       h1: "Elektrofahrräder (E-Bikes)",
       subtitle: "Die Revolution der Mobilität und Performance",
       intro: "Elektrofahrräder haben die Grenzen des Radfahrens neu definiert. Als offizieller Mondraker-Händler und Service-Center bieten wir das High-End-Sortiment an sportlichen E-Bikes mit den besten Antrieben.",
@@ -766,7 +766,7 @@ export const SEO_DATA = {
     },
     "mondraker-crafty": {
       metaTitle: "Mondraker Crafty | Premium Enduro E-MTB in Portugal",
-      metaDesc: "Kaufen Sie das Mondraker Crafty bei Route N109. Das meistverkaufte vollgefederte E-MTB, ausgestattet mit Bosch Performance CX Motor und Forward Geometry.",
+      metaDesc: "Kaufen Sie das Mondraker Crafty bei Agostinho BIKES. Das meistverkaufte vollgefederte E-MTB, ausgestattet mit Bosch Performance CX Motor und Forward Geometry.",
       h1: "Mondraker Crafty",
       subtitle: "Die Benchmark unter den Enduro-E-MTBs",
       intro: "Das Mondraker Crafty ist die ultimative elektrische Enduro-Maschine. Mit Vollfederung, aggressiver Geometrie und dem intelligenten Bosch Smart System überwindet es jeden Trail.",
@@ -780,7 +780,7 @@ export const SEO_DATA = {
     },
     "mondraker-summum": {
       metaTitle: "Mondraker Summum | Premium Downhill-Rennrad",
-      metaDesc: "Entdecken Sie das Mondraker Summum bei Route N109. Die ultimative Downhill-Maschine mit Stealth Carbon Rahmen, 200 mm Federweg und Forward Geometry.",
+      metaDesc: "Entdecken Sie das Mondraker Summum bei Agostinho BIKES. Die ultimative Downhill-Maschine mit Stealth Carbon Rahmen, 200 mm Federweg und Forward Geometry.",
       h1: "Mondraker Summum",
       subtitle: "Maximale Geschwindigkeit und Kontrolle im Downhill",
       intro: "Das Mondraker Summum ist das Downhill-Bike der Wahl für die schnellsten Fahrer der Welt. Entwickelt für Siege im UCI-Weltcup, vereint es einen ultraleichten Carbonrahmen mit einem hocheffizienten Federungssystem.",
@@ -794,7 +794,7 @@ export const SEO_DATA = {
     },
     "mondraker-zendit": {
       metaTitle: "Mondraker Zendit | Vielseitiges und Komfortables Fahrrad",
-      metaDesc: "Lernen Sie das Mondraker Zendit bei Route N109 kennen. Ideale Fahrräder für den täglichen Arbeitsweg oder Freizeit-Trails.",
+      metaDesc: "Lernen Sie das Mondraker Zendit bei Agostinho BIKES kennen. Ideale Fahrräder für den täglichen Arbeitsweg oder Freizeit-Trails.",
       h1: "Mondraker Zendit",
       subtitle: "Komfort und Vielseitigkeit ohne Kompromisse",
       intro: "Das Mondraker Zendit wurde für Fahrer entwickelt, die ein robustes und komfortables Rad für den Alltag und Wochenendausflüge suchen.",
@@ -807,8 +807,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.38.18.webp"
     },
     "e-bikes": {
-      metaTitle: "E-Bikes Deutschland | Verkauf & Fachwerkstatt in Figueira da Foz",
-      metaDesc: "Ihr E-Bike-Spezialist in Figueira da Foz. Offizielles Mondraker-Sortiment mit autorisiertem Service für Bosch, DJI und TQ-Systems Motoren.",
+      metaTitle: "E-Bikes Deutschland | Verkauf & Fachwerkstatt in Pombal",
+      metaDesc: "Ihr E-Bike-Spezialist in Pombal. Offizielles Mondraker-Sortiment mit autorisiertem Service für Bosch, DJI  Motoren.",
       h1: "E-Bikes Deutschland",
       subtitle: "Weiter fahren, schneller klettern",
       intro: "Die E-Bike-Technologie hat den Bergsport revolutioniert und die urbane Mobilität neu gestaltet. Entdecken Sie bei uns erstklassige sportliche Mondraker E-Bikes mit biomechanischer Beratung.",
@@ -822,10 +822,10 @@ export const SEO_DATA = {
     },
     "e-bikes-usadas": {
       metaTitle: "Gebrauchte E-Bikes | Geprüfte Elektrofahrräder mit Garantie",
-      metaDesc: "Gebrauchte E-Bikes sicher kaufen. Jedes Rad durchläuft einen offiziellen Akkutest und eine gründliche Inspektion bei Route N109.",
+      metaDesc: "Gebrauchte E-Bikes sicher kaufen. Jedes Rad durchläuft einen offiziellen Akkutest und eine gründliche Inspektion bei Agostinho BIKES.",
       h1: "Gebrauchte & Aufbereitete E-Bikes",
       subtitle: "Premium-Performance zum Einstiegspreis",
-      intro: "Ein gebrauchtes E-Bike zu kaufen muss kein Risiko sein. Bei Route N109 wird jedes Rad von zertifizierten Mechanikern geprüft. Sie erhalten das Protokoll zum Akkuzustand.",
+      intro: "Ein gebrauchtes E-Bike zu kaufen muss kein Risiko sein. Bei Agostinho BIKES wird jedes Rad von zertifizierten Mechanikern geprüft. Sie erhalten das Protokoll zum Akkuzustand.",
       features: [
         { title: "Akku-Prüfprotokoll", desc: "Offizieller Test der Restkapazität des Akkus in Prozent (z.B. noch 95% Kapazität)." },
         { title: "Garantie vom Händler", desc: "Komplett durchgecheckt mit gesetzlicher Händlergarantie auf alle elektrischen und mechanischen Bauteile." },
@@ -835,9 +835,9 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "oficina-pombal": {
-      metaTitle: "Fahrradwerkstatt Figueira da Foz | Professioneller Reparaturservice",
-      metaDesc: "Fahrradwerkstatt in Lavos, Figueira da Foz, Figueira da Foz. Erfahrene Rennmechaniker. Service für Federung, Bremsen und E-Bikes.",
-      h1: "Fahrradwerkstatt in Figueira da Foz",
+      metaTitle: "Fahrradwerkstatt Pombal | Professioneller Reparaturservice",
+      metaDesc: "Fahrradwerkstatt in Mata Mourisca, Pombal. Erfahrene Rennmechaniker. Service für Federung, Bremsen und E-Bikes.",
+      h1: "Fahrradwerkstatt in Pombal",
       subtitle: "Fachwerkstatt auf World-Cup-Niveau",
       intro: "Unsere Werkstatt ist eine feste Größe bei der Wartung hochwertiger Rennräder und Mountainbikes. Wir nutzen Spezialwerkzeuge für perfekten Service an Dämpfern, Bremsen und Elektronik.",
       features: [
@@ -849,8 +849,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "assistencia-bosch": {
-      metaTitle: "Bosch E-Bike Service | Autorisiertes Center in Figueira da Foz",
-      metaDesc: "Offizieller Bosch E-Bike Servicepartner. Fehlerdiagnose, Softwareupdates und Originalteile bei Route N109.",
+      metaTitle: "Bosch E-Bike Service | Autorisiertes Center in Pombal",
+      metaDesc: "Offizieller Bosch E-Bike Servicepartner. Fehlerdiagnose, Softwareupdates und Originalteile bei Agostinho BIKES.",
       h1: "Bosch E-Bike Service und Support",
       subtitle: "Offizieller Servicepartner mit zertifizierten Technikern",
       intro: "Als zertifiziertes Bosch E-Bike Service Center haben wir Zugriff auf alle Original-Diagnosesoftware. Wir führen Motorreparaturen, Garantieabwicklungen und System-Updates durch.",
@@ -864,7 +864,7 @@ export const SEO_DATA = {
     },
     "diagnostico-bosch": {
       metaTitle: "Bosch E-Bike Diagnose | Akku-Kapazitätstest",
-      metaDesc: "Auslesen des Systems Ihres Bosch-Bikes bei Route N109. Erhalten Sie das Akku-Gesundheitsprotokoll (Capacity Test).",
+      metaDesc: "Auslesen des Systems Ihres Bosch-Bikes bei Agostinho BIKES. Erhalten Sie das Akku-Gesundheitsprotokoll (Capacity Test).",
       h1: "Offizielle Bosch Diagnose",
       subtitle: "Zustandsbericht für Akku und Elektronik",
       intro: "Sie möchten ein gebrauchtes E-Bike kaufen oder den Zustand Ihres Bosch-Akkus prüfen? Unser Diagnosegerät entlädt und analysiert den Akku kontrolliert für ein exaktes Protokoll.",
@@ -877,11 +877,11 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "diagnostico-dji-avinox": {
-      metaTitle: "DJI Avinox Diagnose | Offizieller Support Figueira da Foz",
-      metaDesc: "Zertifizierter Service für DJI Avinox Diagnose und Reparatur in Portugal. Updates und Abstimmung bei Route N109.",
+      metaTitle: "DJI Avinox Diagnose | Offizieller Support Pombal",
+      metaDesc: "Zertifizierter Service für DJI Avinox Diagnose und Reparatur in Portugal. Updates und Abstimmung bei Agostinho BIKES.",
       h1: "DJI Avinox Diagnose",
       subtitle: "Ihr Spezialist für das neue DJI Avinox Antriebssystem",
-      intro: "Der DJI Avinox Motor revolutioniert den E-MTB-Markt. Bei Route N109 haben wir die offizielle Schulung und Diagnosesoftware für Updates und Leistungsoptimierungen.",
+      intro: "Der DJI Avinox Motor revolutioniert den E-MTB-Markt. Bei Agostinho BIKES haben wir die offizielle Schulung und Diagnosesoftware für Updates und Leistungsoptimierungen.",
       features: [
         { title: "App- & Desktop-Diagnose", desc: "Direkte Schnittstelle zu den DJI-Servern zur Abstimmung der Sensoren und Kennlinien." },
         { title: "Autorisierter Amflow Service", desc: "Professionelle Wartung für Kabel, Akkus, Displays und Elektronik im DJI-System." },
@@ -891,8 +891,8 @@ export const SEO_DATA = {
       image: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
     },
     "orcamento": {
-      metaTitle: "Kostenvoranschlag | Route N109 Figueira da Foz",
-      metaDesc: "Fordern Sie ein Angebot für Teile, Upgrades oder Custom-Bikes an. Schnelle Rückmeldung via WhatsApp bei Route N109.",
+      metaTitle: "Kostenvoranschlag | Agostinho BIKES Pombal",
+      metaDesc: "Fordern Sie ein Angebot für Teile, Upgrades oder Custom-Bikes an. Schnelle Rückmeldung via WhatsApp bei Agostinho BIKES.",
       h1: "Kostenvoranschlag anfordern",
       subtitle: "Preise für Teile, Zubehör und Custom-Bikes",
       intro: "Brauchen Sie neue Reifen, Bremsbeläge, Upgrades an der Schaltung oder möchten Sie ein Custom-Bike anfragen? Füllen Sie das Formular aus, wir melden uns schnell per WhatsApp.",
@@ -905,8 +905,8 @@ export const SEO_DATA = {
       image: "/images/about/specialized_fit.webp"
     },
     "marcacao-oficina": {
-      metaTitle: "Werkstatt-Termin | Route N109 Lavos, Figueira da Foz",
-      metaDesc: "Planen Sie Dämpferservice, Bremsenentlüftung oder Motor-Diagnose. Buchen Sie Ihren Werkstattservice bei Route N109.",
+      metaTitle: "Werkstatt-Termin | Agostinho BIKES Mata Mourisca",
+      metaDesc: "Planen Sie Dämpferservice, Bremsenentlüftung oder Motor-Diagnose. Buchen Sie Ihren Werkstattservice bei Agostinho BIKES.",
       h1: "Werkstatt-Termin vereinbaren",
       subtitle: "Planen Sie die Inspektion Ihres Fahrrads",
       intro: "Vermeiden Sie lange Wartezeiten. Buchen Sie Ihren Werkstatt-Termin online. Unser World-Cup-erfahrener Mechaniker erledigt die Arbeit mit absoluter Präzision.",

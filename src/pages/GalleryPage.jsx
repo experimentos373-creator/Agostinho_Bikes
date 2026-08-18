@@ -14,11 +14,11 @@ export default function GalleryPage() {
 
   useEffect(() => {
     const titles = {
-      pt: "Galeria de Projetos & Mecânica | Route N109",
-      en: "Projects & Mechanical Gallery | Route N109",
-      es: "Galería de Proyectos & Mecánica | Route N109",
-      fr: "Galerie de Projets & Mécanique | Route N109",
-      de: "Projekte & Werkstatt-Galerie | Route N109"
+      pt: "Galeria de Projetos & Mecânica | Agostinho BIKES",
+      en: "Projects & Mechanical Gallery | Agostinho BIKES",
+      es: "Galería de Proyectos & Mecánica | Agostinho BIKES",
+      fr: "Galerie de Projets & Mécanique | Agostinho BIKES",
+      de: "Projekte & Werkstatt-Galerie | Agostinho BIKES"
     };
     document.title = titles[language] || titles.pt;
   }, [language]);
@@ -85,13 +85,16 @@ export default function GalleryPage() {
   };
 
   return (
-    <div className="bg-white min-h-screen pt-24 md:pt-32 pb-20 text-left">
+    <div className="bg-white min-h-screen pt-32 md:pt-40 pb-20 text-left">
       
       {/* Back button */}
-      <div className="max-w-[1400px] mx-auto px-6 mb-8">
-        <Link to={prefix || "/"} className="inline-flex items-center gap-2 text-neutral-500 hover:text-neutral-900 transition-colors font-semibold text-sm">
-          <ArrowLeft className="w-4 h-4" />
-          {t("general.backToHome")}
+      <div className="max-w-[1400px] mx-auto px-6 mt-2 mb-8">
+        <Link
+          to={prefix || "/"}
+          className="inline-flex items-center gap-2 bg-neutral-100/90 hover:bg-neutral-900 text-neutral-600 hover:text-white px-3.5 py-1.5 rounded-full text-xs font-bold transition-all duration-300 shadow-xs border border-neutral-200/80 group"
+        >
+          <ArrowLeft className="w-3.5 h-3.5 text-primary group-hover:text-white group-hover:-translate-x-1 transition-all duration-300" />
+          <span>{t("general.backToHome")}</span>
         </Link>
       </div>
 
@@ -100,7 +103,7 @@ export default function GalleryPage() {
           
           {/* Header */}
           <div className="text-center max-w-3xl mx-auto mb-12 animate-menu-fade">
-            <span className="text-primary font-black uppercase text-xs tracking-widest bg-primary/10 px-4 py-1.5 rounded-full mb-4 inline-block">
+            <span className="text-red-700 font-extrabold uppercase text-xs tracking-widest bg-red-50 border border-red-200/60 px-4 py-1.5 rounded-full mb-4 inline-block">
               {t("nav.gallery")}
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-display tracking-tight leading-none mb-6 uppercase text-neutral-900">
@@ -219,7 +222,7 @@ export default function GalleryPage() {
             {/* Description & Action Footer (White/Gray card) */}
             <div className="bg-neutral-900 text-white w-full p-6 md:p-8 rounded-b-2xl border-t border-neutral-800 text-left pointer-events-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
               <div className="flex-1">
-                <span className="text-primary font-black uppercase text-[9px] tracking-widest bg-primary/10 px-2 py-0.5 rounded inline-block mb-2">
+                <span className="text-red-400 font-extrabold uppercase text-[9px] tracking-widest bg-red-950/80 border border-red-800/50 px-2 py-0.5 rounded inline-block mb-2">
                   {t("gallery.filter." + filteredImages[selectedImageIdx].category.replace("-", ""))}
                 </span>
                 <h3 className="text-lg md:text-xl font-black uppercase tracking-tight text-white mb-2 leading-none font-display">

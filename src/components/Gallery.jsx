@@ -7,11 +7,11 @@ export default function Gallery() {
   const { t, language } = useLanguage();
   const prefix = language === "pt" ? "" : `/${language}`;
   
-  // Show exactly the 4 requested featured photos in the homepage preview
+  // Show featured photos in the homepage preview
   const targetUrls = [
     "/images/bikes/WhatsApp Image 2026-07-08 at 19.42.28.webp",
-    "/images/bikes/WhatsApp Image 2026-07-08 at 19.43.53.webp",
-    "/images/bikes/WhatsApp Image 2026-07-08 at 19.38.08.webp",
+    "/images/brand/green_mondraker.webp",
+    "/images/about/santa_cruz_workshop.webp",
     "/images/bikes/WhatsApp Image 2026-07-08 at 19.40.13 (1).webp"
   ];
   
@@ -28,7 +28,7 @@ export default function Gallery() {
         
         {/* Section Header */}
         <div className="reveal-slide-up mb-16 text-center">
-          <span className="text-primary font-extrabold uppercase text-xs tracking-widest bg-primary/10 px-4 py-1.5 rounded-full mb-6 inline-block">
+          <span className="text-red-700 font-extrabold uppercase text-xs tracking-widest bg-red-50 border border-red-200/60 px-4 py-1.5 rounded-full mb-6 inline-block">
             {t("nav.gallery")}
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-neutral-900 font-display tracking-tight leading-none mb-4 uppercase">

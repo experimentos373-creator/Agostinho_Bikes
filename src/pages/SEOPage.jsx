@@ -85,14 +85,14 @@ export default function SEOPage() {
             {
               "@type": "Question",
               "name": language === "en" 
-                ? `How to book the service ${pageData.h1} in Figueira da Foz?`
+                ? `How to book the service ${pageData.h1} in Pombal?`
                 : language === "es"
-                ? `¿Cómo reservar el servicio ${pageData.h1} en Figueira da Foz?`
+                ? `¿Cómo reservar el servicio ${pageData.h1} en Pombal?`
                 : language === "fr"
-                ? `Comment réserver le service ${pageData.h1} à Figueira da Foz?`
+                ? `Comment réserver le service ${pageData.h1} à Pombal?`
                 : language === "de"
-                ? `Wie buche ich den Service ${pageData.h1} in Figueira da Foz?`
-                : `Como agendar o serviço ${pageData.h1} em Figueira da Foz?`,
+                ? `Wie buche ich den Service ${pageData.h1} in Pombal?`
+                : `Como agendar o serviço ${pageData.h1} em Pombal?`,
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": language === "en"
@@ -109,25 +109,25 @@ export default function SEOPage() {
             {
               "@type": "Question",
               "name": language === "en"
-                ? "Does Route N109 workshop have certified mechanics?"
+                ? "Does Agostinho BIKES workshop have certified mechanics?"
                 : language === "es"
-                ? "¿Cuenta el taller de Route N109 con mecánicos certificados?"
+                ? "¿Cuenta el taller de Agostinho BIKES con mecánicos certificados?"
                 : language === "fr"
-                ? "L'atelier d'Route N109 a-t-il des mécaniciens certifiés?"
+                ? "L'atelier d'Agostinho BIKES a-t-il des mécaniciens certifiés?"
                 : language === "de"
-                ? "Hat die Route N109 Werkstatt zertifizierte Mechaniker?"
-                : "A oficina Route N109 tem mecânicos certificados?",
+                ? "Hat die Agostinho BIKES Werkstatt zertifizierte Mechaniker?"
+                : "A oficina Agostinho BIKES tem mecânicos certificados?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": language === "en"
-                  ? "Yes, our workshop has certified mechanics with direct experience and specialized technical training in electric motorcycle and scooter systems."
+                  ? "Yes, our workshop has certified mechanics with direct experience in racing teams and technical training in Bosch E-Bike and DJI Avinox systems."
                   : language === "es"
-                  ? "Sí, nuestro taller cuenta con mecánicos certificados con experiencia directa y capacitación técnica especializada en sistemas de motos y scooters eléctricos."
+                  ? "Sí, nuestro taller cuenta con mecánicos certificados con experiencia directa en equipos de competición y capacitación técnica en sistemas Bosch E-Bike y DJI Avinox."
                   : language === "fr"
-                  ? "Oui, notre atelier dispose de mécaniciens certifiés ayant une expérience directe et une formation technique spécialisée dans les systèmes de motos et scooters électriques."
+                  ? "Oui, notre atelier dispose de mécaniciens certifiés ayant une expérience directe des équipes de course et une formation technique sur les systèmes Bosch E-Bike et DJI Avinox."
                   : language === "de"
-                  ? "Ja, unsere Werkstatt verfügt über zertifizierte Mechaniker mit direkter Erfahrung und spezieller technischer Ausbildung für Elektromotorrad- und E-Scooter-Systeme."
-                  : "Sim, a nossa oficina dispõe de mecânicos certificados com experiência direta e formação técnica especializada em sistemas de motos e scooters elétricas."
+                  ? "Ja, unsere Werkstatt verfügt über zertifizierte Mechaniker mit direkter Erfahrung in Rennställen und technischer Ausbildung in Bosch E-Bike- und DJI Avinox-Systemen."
+                  : "Sim, a nossa oficina dispõe de mecânicos certificados com experiência direta em equipas de competição e formação técnica nos sistemas Bosch E-Bike e DJI Avinox."
               }
             }
           ]
@@ -141,7 +141,7 @@ export default function SEOPage() {
       }
 
       // 3. Dynamic Hreflang Alternate Link Tags for multi-language indexing
-      const languages = ["pt", "en", "es", "fr"];
+      const languages = ["pt", "en", "es", "fr", "de"];
       const hreflangElements = [];
 
       languages.forEach((lang) => {
@@ -194,12 +194,15 @@ export default function SEOPage() {
   }
 
   return (
-    <div className="bg-white min-h-screen pt-24 md:pt-32">
+    <div className="bg-white min-h-screen pt-32 md:pt-40">
       {/* Header section with back button */}
-      <div className="max-w-[1400px] mx-auto px-6 mb-8 text-left">
-        <Link to={prefix || "/"} className="inline-flex items-center gap-2 text-neutral-500 hover:text-neutral-900 transition-colors font-semibold text-sm">
-          <ArrowLeft className="w-4 h-4" />
-          {t("general.backToHome")}
+      <div className="max-w-[1400px] mx-auto px-6 mt-2 mb-8 text-left">
+        <Link
+          to={prefix || "/"}
+          className="inline-flex items-center gap-2 bg-neutral-100/90 hover:bg-neutral-900 text-neutral-600 hover:text-white px-3.5 py-1.5 rounded-full text-xs font-bold transition-all duration-300 shadow-xs border border-neutral-200/80 group"
+        >
+          <ArrowLeft className="w-3.5 h-3.5 text-primary group-hover:text-white group-hover:-translate-x-1 transition-all duration-300" />
+          <span>{t("general.backToHome")}</span>
         </Link>
       </div>
 
@@ -223,7 +226,7 @@ export default function SEOPage() {
               ) : (
                 <Cpu className="w-8 h-8 text-primary mb-2 slow-blink" />
               )}
-              <span className="text-xs sm:text-sm font-extrabold font-display block uppercase tracking-tight">Route N109</span>
+              <span className="text-xs sm:text-sm font-extrabold font-display block uppercase tracking-tight">Agostinho BIKES</span>
               <span className="text-[7px] sm:text-[8px] text-neutral-400 uppercase tracking-widest mt-1">
                 {t("general.certified")}
               </span>
@@ -232,7 +235,7 @@ export default function SEOPage() {
 
           {/* Text Details & Features */}
           <div className="lg:col-span-6 flex flex-col items-start">
-            <span className="text-primary font-extrabold uppercase text-xs tracking-widest bg-primary/10 px-4 py-1.5 rounded-full mb-6">
+            <span className="text-red-700 font-extrabold uppercase text-xs tracking-widest bg-red-50 border border-red-200/60 px-4 py-1.5 rounded-full mb-6">
               {pageData.formType === "budget" ? t("general.brandsProducts") : t("general.servicesWorkshop")}
             </span>
             <h1 className="text-4xl md:text-5xl font-extrabold text-neutral-900 font-display tracking-tight leading-[1.05] mb-4 uppercase">

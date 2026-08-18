@@ -8,14 +8,14 @@ export const galleryImages = [
   },
   {
     id: "photo2",
-    url: "/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp",
-    category: "oficina",
+    url: "/images/brand/green_mondraker.webp",
+    category: "e-bike",
     titleKey: "galleryData.photo2.title",
     descKey: "galleryData.photo2.desc"
   },
   {
     id: "photo3",
-    url: "/images/bikes/WhatsApp Image 2026-07-08 at 19.34.53.webp",
+    url: "/images/about/santa_cruz_workshop.webp",
     category: "oficina",
     titleKey: "galleryData.photo3.title",
     descKey: "galleryData.photo3.desc"

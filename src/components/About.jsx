@@ -1,103 +1,120 @@
-import { ShieldCheck, BatteryCharging, Wrench, Settings } from "lucide-react";
+import { ShieldCheck, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function About() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const prefix = language === "pt" ? "" : `/${language}`;
 
-  const services = [
+  const features = [
     {
       title: t("about.feat1.title"),
-      desc: t("about.feat1.desc"),
-      icon: <Settings className="w-4 h-4 text-primary" />
+      desc: t("about.feat1.desc")
     },
     {
       title: t("about.feat2.title"),
-      desc: t("about.feat2.desc"),
-      icon: <BatteryCharging className="w-4 h-4 text-primary" />
+      desc: t("about.feat2.desc")
     },
     {
       title: t("about.feat3.title"),
-      desc: t("about.feat3.desc"),
-      icon: <Wrench className="w-4 h-4 text-primary" />
+      desc: t("about.feat3.desc")
     }
   ];
 
   return (
-    <section id="sobre" className="py-20 md:py-28 bg-white text-[#111111] relative border-b border-neutral-200/50">
-      <div className="max-w-[1400px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-20 items-center">
+    <section id="sobre" className="py-16 md:py-28 bg-white relative overflow-hidden border-b border-neutral-100">
+      {/* Subtle geometric line art background */}
+      <div className="absolute right-0 top-0 w-1/3 h-full border-l border-neutral-100 pointer-events-none" />
+      
+      <div className="max-w-[1400px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
         
-        {/* Left 5 Columns: Sleek Framed Workshop Image */}
-        <div className="lg:col-span-5 relative reveal-slide-left w-full flex justify-center">
-          <div className="relative p-2.5 bg-[#FCFBFA] border border-neutral-200 shadow-md w-full max-w-[450px]">
-            <div className="border border-neutral-200 overflow-hidden relative">
-              <img
-                src="/images/route109_about.webp"
-                alt="Oficina Route N109 - Assistência Técnica"
-                className="w-full h-[320px] sm:h-[400px] object-cover hover:scale-102 transition-transform duration-700"
-                width="500"
-                height="400"
-              />
-            </div>
-            {/* Caption style under image */}
-            <div className="mt-2 text-[9px] uppercase tracking-widest text-neutral-400 font-bold text-center">
-              Centro Técnico de Diagnóstico e Reparação Eletrónica
-            </div>
+        {/* Images stacked in an overlapping magazine layout */}
+        <div className="lg:col-span-6 relative h-[420px] sm:h-[500px] flex items-center justify-center reveal-slide-left z-10">
+          
+          {/* Main Large Image (Fit Alignment) */}
+          <div className="absolute top-[5%] left-[5%] w-[68%] h-[75%] border border-neutral-200 overflow-hidden rounded-2xl shadow-lg bg-neutral-100">
+            <img
+              src="/images/bikes/WhatsApp Image 2026-07-08 at 19.33.41.webp"
+              alt="Montagem personalizada e biomecânica na Agostinho BIKES"
+              fetchPriority="high"
+              className="w-full h-full object-cover transition-all duration-700"
+              width="500"
+              height="375"
+            />
           </div>
 
-          {/* Floating Minimal Stamp (High Contrast Round Badge) */}
-          <div className="absolute -bottom-4 -right-4 bg-neutral-950 text-white rounded-full w-24 h-24 flex flex-col items-center justify-center border border-neutral-800 shadow-xl z-20">
-            <ShieldCheck className="w-5 h-5 text-primary mb-1 animate-pulse" />
-            <span className="text-[8px] font-black uppercase tracking-widest text-center leading-none">Oficina</span>
-            <span className="text-[8px] font-bold text-neutral-400 uppercase tracking-widest text-center mt-0.5">Certificada</span>
+          {/* Overlapping Image (Workshop) */}
+          <div className="absolute bottom-[5%] right-[5%] w-[48%] h-[48%] border-4 border-white z-20 overflow-hidden rounded-xl shadow-2xl">
+            <img
+              src="/images/about/santa_cruz_workshop.webp"
+              alt="Mecânica de alta performance e E-Bikes"
+              className="w-full h-full object-cover hover:scale-[1.05] transition-transform duration-500"
+              width="300"
+              height="300"
+            />
+          </div>
+
+          {/* Floating Certified Badge */}
+          <div className="absolute top-[12%] right-[8%] bg-neutral-900 text-white p-5 rounded-2xl border border-neutral-800 z-30 shadow-lg text-center flex flex-col justify-center items-center w-36 h-36">
+            <ShieldCheck className="w-8 h-8 text-primary mb-2 slow-blink" />
+            <span className="text-sm font-extrabold font-display block uppercase tracking-tight">Agostinho BIKES</span>
+            <span className="text-[8px] text-neutral-400 uppercase tracking-widest mt-1">
+              {t("about.since")}
+            </span>
           </div>
         </div>
 
-        {/* Right 7 Columns: Text & Clean Editorial Services */}
-        <div className="lg:col-span-7 flex flex-col items-start text-left reveal-slide-right z-10">
-          <span className="text-primary font-bold uppercase text-[10px] tracking-widest bg-primary/10 px-3.5 py-1.5 rounded-full mb-6">
+        {/* Text Details & Features */}
+        <div className="lg:col-span-6 flex flex-col items-start text-left reveal-slide-right">
+          <span className="text-red-700 font-extrabold uppercase text-xs tracking-widest bg-red-50 border border-red-200/60 px-4 py-1.5 rounded-full mb-6">
             {t("about.badge")}
           </span>
-          
-          <h2 className="text-4xl md:text-5xl font-normal text-neutral-950 font-display tracking-tight leading-[1.1] mb-6 uppercase">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-neutral-900 font-display tracking-tight leading-[1.05] mb-6 uppercase">
             {t("about.title")}
           </h2>
-          
-          <p className="text-primary font-bold mb-4 text-xs uppercase tracking-widest">
+          <p className="text-neutral-500 font-bold mb-6 text-base font-display uppercase tracking-wide">
             {t("about.subtitle")}
           </p>
-          
-          <p className="text-neutral-600 leading-relaxed mb-4 text-sm md:text-base">
+          <p className="text-neutral-600 font-normal leading-relaxed mb-4 text-base">
             {t("about.paragraph1")}
           </p>
-          <p className="text-neutral-600 leading-relaxed mb-12 text-sm md:text-base">
+          <p className="text-neutral-600 font-normal leading-relaxed mb-10 text-base">
             {t("about.paragraph2")}
           </p>
 
-          {/* Clean List with fine dividers (instead of rounded box cards) */}
-          <div className="w-full border-t border-neutral-200/80">
-            {services.map((service, idx) => (
+          {/* Highlights Editorial List */}
+          <div className="w-full border-t border-neutral-200">
+            {features.map((feature, idx) => (
               <div
                 key={idx}
-                className="flex items-start gap-6 py-5 border-b border-neutral-200/80 group transition-colors duration-250 hover:bg-neutral-50/50 px-2"
+                className="flex items-start gap-6 py-5 border-b border-neutral-100 group transition-colors duration-300"
               >
-                {/* Visual numbering */}
-                <span className="font-display text-2xl font-normal text-primary/30 group-hover:text-primary transition-colors duration-300 leading-none pt-0.5">
-                  0{idx + 1}
+                <span className="font-display text-3xl font-black text-primary/30 group-hover:text-primary transition-colors duration-300 leading-none pt-1">
+                  {`0${idx + 1}`}
                 </span>
-                <div className="flex-1">
-                  <h3 className="font-bold text-neutral-950 text-sm uppercase tracking-wider mb-1 flex items-center gap-2">
-                    <span className="opacity-60 group-hover:opacity-100 transition-opacity">{service.icon}</span>
-                    {service.title}
+                <div>
+                  <h3 className="font-bold text-neutral-900 font-display text-base mb-1 uppercase tracking-wide">
+                    {feature.title}
                   </h3>
-                  <p className="text-xs md:text-sm text-neutral-500 leading-relaxed max-w-xl">
-                    {service.desc}
+                  <p className="text-sm text-neutral-500 font-normal leading-relaxed">
+                    {feature.desc}
                   </p>
                 </div>
               </div>
             ))}
           </div>
-        </div>
 
+          {/* CTA Link to separate page */}
+          <div className="mt-8">
+            <Link
+              to={`${prefix}/empresa`}
+              className="inline-flex items-center gap-2 bg-neutral-900 hover:bg-primary hover:text-white text-white px-6 py-3 rounded-full font-black text-xs uppercase tracking-wider transition-all duration-300 spring-hover shadow-md border-none"
+            >
+              <span>{language === "en" ? "Learn More About Us" : "Saber Mais Sobre Nós"}</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -5,7 +5,7 @@ import { CheckCircle2 } from "lucide-react";
 
 const WHATSAPP_LABELS = {
   pt: {
-    title: "*Nova Marcação de Oficina - Route N109*",
+    title: "*Nova Marcação de Oficina - Agostinho BIKES*",
     name: "*Nome:*",
     contact: "*Contacto:*",
     bike: "*Bicicleta:*",
@@ -15,7 +15,7 @@ const WHATSAPP_LABELS = {
     none: "Nenhuma"
   },
   en: {
-    title: "*New Workshop Booking - Route N109*",
+    title: "*New Workshop Booking - Agostinho BIKES*",
     name: "*Name:*",
     contact: "*Contact:*",
     bike: "*Bicycle:*",
@@ -25,7 +25,7 @@ const WHATSAPP_LABELS = {
     none: "None"
   },
   es: {
-    title: "*Nueva Cita de Taller - Route N109*",
+    title: "*Nueva Cita de Taller - Agostinho BIKES*",
     name: "*Nombre:*",
     contact: "*Contacto:*",
     bike: "*Bicicleta:*",
@@ -35,7 +35,7 @@ const WHATSAPP_LABELS = {
     none: "Ninguna"
   },
   fr: {
-    title: "*Nouveau Rendez-vous Atelier - Route N109*",
+    title: "*Nouveau Rendez-vous Atelier - Agostinho BIKES*",
     name: "*Nom:*",
     contact: "*Contact:*",
     bike: "*Vélo:*",
@@ -45,7 +45,7 @@ const WHATSAPP_LABELS = {
     none: "Aucune"
   },
   de: {
-    title: "*Neuer Werkstatt-Termin - Route N109*",
+    title: "*Neuer Werkstatt-Termin - Agostinho BIKES*",
     name: "*Name:*",
     contact: "*Kontakt:*",
     bike: "*Fahrrad:*",

@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #FF6600; /* Route N109 Orange */
-  --color-primary-hover: #E05300;
-  --color-dark: #111111;
-  --color-bg-warm: #FCFBFA; /* Sand Off-White */
+  --color-primary: #E02424; /* Agostinho Red */
+  --color-primary-hover: #C21A1A;
+  --color-dark: #000000;
+  --color-bg-warm: #FFFFFF;
   --color-gold: #E5E5E5; /* Light grey for borders */
   --font-sans: "Inter", sans-serif;
-  --font-display: "Outfit", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
 }
 
 @layer base {
@@ -21,6 +21,16 @@
     font-family: var(--font-sans);
     background-color: var(--color-bg-warm);
     color: var(--color-dark);
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (min-width: 1280px) {
+    html {
+      zoom: 0.95;
+    }
   }
   
   section[id], footer[id] {
@@ -119,6 +129,42 @@
   animation: menu-fade-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
 }
 
+/* WhatsApp Capsule Slide-Out Emerge & Nudge Animations */
+@keyframes wa-emerge {
+  0% {
+    transform: translateX(40px) scale(0.8);
+    opacity: 0;
+  }
+  70% {
+    transform: translateX(-5px) scale(1.03);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes wa-nudge {
+  0%, 80%, 100% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(-8px);
+  }
+  95% {
+    transform: translateX(-2px);
+  }
+}
+
+.animate-wa-emerge {
+  animation: wa-emerge 0.85s cubic-bezier(0.34, 1.56, 0.64, 1) 0.5s both;
+}
+
+.animate-wa-nudge {
+  animation: wa-nudge 5s ease-in-out 2s infinite;
+}
+
 /* Floating Particles (Embers) Animation for Hero */
 @keyframes float-particle {
   0% {
@@ -148,7 +194,7 @@
 .floating-particle {
   position: absolute;
   bottom: -25px;
-  background-color: #FF6600; /* primary orange color */
+  background-color: #C41E24; /* primary red color */
   border-radius: 50%;
   pointer-events: none;
   animation: float-particle var(--particle-duration, 12s) linear infinite;
@@ -182,62 +228,6 @@
   z-index: -1;
   animation: whatsapp-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
-
-/* Studio Product Display & Realistic Ground Shadows */
-.product-studio-bg {
-  background: radial-gradient(circle at 50% 55%, rgba(255, 102, 0, 0.12) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(246, 244, 240, 1) 100%);
-}
-
-.card-studio-aura {
-  position: relative;
-}
-
-.card-studio-aura::before {
-  content: '';
-  position: absolute;
-  top: 20%;
-  left: 15%;
-  right: 15%;
-  bottom: 25%;
-  background: radial-gradient(ellipse at center, rgba(255, 102, 0, 0.18) 0%, rgba(255, 102, 0, 0) 70%);
-  filter: blur(20px);
-  pointer-events: none;
-  opacity: 0.6;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-}
-
-.group:hover .card-studio-aura::before {
-  opacity: 1;
-  transform: scale(1.15);
-}
-
-.vehicle-drop-shadow {
-  filter: drop-shadow(0 14px 10px rgba(0, 0, 0, 0.16)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
-  transition: filter 0.5s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.group:hover .vehicle-drop-shadow {
-  filter: drop-shadow(0 22px 18px rgba(255, 102, 0, 0.25)) drop-shadow(0 6px 8px rgba(0, 0, 0, 0.12));
-}
-
-.product-card-frame {
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease, box-shadow 0.35s ease;
-}
-
-.product-card-frame:hover {
-  transform: translateY(-5px);
-  border-color: rgba(255, 102, 0, 0.35);
-  box-shadow: 0 20px 35px -10px rgba(255, 102, 0, 0.12), 0 0 20px rgba(255, 102, 0, 0.08);
-}
-
-/* Distinctive Luxury Badge Style */
-.badge-luxury-gold {
-  background: linear-gradient(135deg, rgba(255, 102, 0, 0.15) 0%, rgba(255, 102, 0, 0.05) 100%);
-  border: 1px solid rgba(255, 102, 0, 0.3);
-  box-shadow: inset 0 0 10px rgba(255, 102, 0, 0.05);
-}
-
-
 
 
 

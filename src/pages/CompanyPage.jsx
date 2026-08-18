@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, Clock, MapPin, Phone, Mail, Award, ShieldCheck, Heart } from "lucide-react";
+import { ArrowLeft, Clock, MapPin, Phone, Mail, Award, ShieldCheck, Trophy } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { config } from "../config";
 
@@ -10,11 +10,11 @@ export default function CompanyPage() {
 
   useEffect(() => {
     const titles = {
-      pt: "Empresa | Route N109",
-      en: "Company | Route N109",
-      es: "Empresa | Route N109",
-      fr: "Entreprise | Route N109",
-      de: "Unternehmen | Route N109"
+      pt: "Empresa | Agostinho BIKES",
+      en: "Company | Agostinho BIKES",
+      es: "Empresa | Agostinho BIKES",
+      fr: "Entreprise | Agostinho BIKES",
+      de: "Unternehmen | Agostinho BIKES"
     };
     document.title = titles[language] || titles.pt;
   }, [language]);
@@ -22,19 +22,22 @@ export default function CompanyPage() {
   const stats = [
     { label: t("company.stats.experienceLabel"), value: t("company.stats.experience"), icon: <Award className="w-5 h-5 text-primary" /> },
     { label: t("company.stats.certifiedLabel"), value: t("company.stats.certified"), icon: <ShieldCheck className="w-5 h-5 text-primary" /> },
-    { label: t("company.stats.worldcupLabel"), value: t("company.stats.worldcup"), icon: <Heart className="w-5 h-5 text-primary" /> }
+    { label: t("company.stats.worldcupLabel"), value: t("company.stats.worldcup"), icon: <Trophy className="w-5 h-5 text-primary" /> }
   ];
 
   const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(config.address.street + ", " + config.address.locality + ", " + config.address.postalCode + ", " + config.address.countryName)}`;
 
   return (
-    <div className="bg-white min-h-screen text-neutral-800 pt-24 md:pt-32 pb-20 text-left">
+    <div className="bg-white min-h-screen text-neutral-800 pt-32 md:pt-40 pb-20 text-left">
       
       {/* Back button */}
-      <div className="max-w-[1400px] mx-auto px-6 mb-8">
-        <Link to={prefix || "/"} className="inline-flex items-center gap-2 text-neutral-500 hover:text-neutral-900 transition-colors font-semibold text-sm">
-          <ArrowLeft className="w-4 h-4" />
-          {t("general.backToHome")}
+      <div className="max-w-[1400px] mx-auto px-6 mt-2 mb-8">
+        <Link
+          to={prefix || "/"}
+          className="inline-flex items-center gap-2 bg-neutral-100/90 hover:bg-neutral-900 text-neutral-600 hover:text-white px-3.5 py-1.5 rounded-full text-xs font-bold transition-all duration-300 shadow-xs border border-neutral-200/80 group"
+        >
+          <ArrowLeft className="w-3.5 h-3.5 text-primary group-hover:text-white group-hover:-translate-x-1 transition-all duration-300" />
+          <span>{t("general.backToHome")}</span>
         </Link>
       </div>
 
@@ -43,7 +46,7 @@ export default function CompanyPage() {
           
           {/* Header */}
           <div className="mb-16">
-            <span className="text-primary font-black uppercase text-xs tracking-widest bg-primary/10 px-4 py-1.5 rounded-full mb-4 inline-block">
+            <span className="text-red-700 font-extrabold uppercase text-xs tracking-widest bg-red-50 border border-red-200/60 px-4 py-1.5 rounded-full mb-4 inline-block">
               {t("about.badge")}
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-display tracking-tight leading-none mb-6 uppercase text-neutral-900">
@@ -79,8 +82,8 @@ export default function CompanyPage() {
               {/* Background large image */}
               <div className="absolute top-[5%] left-[5%] w-[68%] h-[75%] border border-neutral-200 overflow-hidden rounded-3xl shadow-lg bg-neutral-100">
                 <img
-                  src="/images/about/workshop_collage.jpg"
-                  alt="Route N109 Oficina de Bicicletas"
+                  src="/images/about/workshop_collage.webp"
+                  alt="Agostinho BIKES Oficina de Bicicletas"
                   className="w-full h-full object-cover scale-110 transition-transform duration-700 hover:scale-120"
                   loading="lazy"
                 />
@@ -89,8 +92,8 @@ export default function CompanyPage() {
               {/* Overlapping small image */}
               <div className="absolute bottom-[5%] right-[5%] w-[48%] h-[48%] border-4 border-white z-20 overflow-hidden rounded-2xl shadow-2xl bg-neutral-100">
                 <img
-                  src="/images/about/mondraker_box.png"
-                  alt="Mondraker the way forward Route N109"
+                  src="/images/about/mondraker_box.webp"
+                  alt="Mondraker the way forward Agostinho BIKES"
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   loading="lazy"
                 />
@@ -106,7 +109,7 @@ export default function CompanyPage() {
               {/* Map Column */}
               <div className="w-full lg:w-3/5 h-[350px] md:h-[420px] rounded-2xl overflow-hidden border border-neutral-200 shadow-inner relative">
                 <iframe 
-                  title="Route N109 Location Map"
+                  title="Agostinho BIKES Location Map"
                   src={`https://maps.google.com/maps?q=${config.geo.latitude},${config.geo.longitude}&z=16&output=embed&hl=${language}`} 
                   className="w-full h-full border-none opacity-95"
                   allowFullScreen="" 
@@ -119,7 +122,7 @@ export default function CompanyPage() {
               <div className="flex flex-1 flex-col justify-between gap-6 my-4 lg:my-0">
                 <div>
                   <h2 className="text-neutral-900 text-lg md:text-2xl font-extrabold uppercase font-display mb-6">
-                    Route N109
+                    Agostinho BIKES
                   </h2>
                   
                   <div className="flex flex-col gap-6">

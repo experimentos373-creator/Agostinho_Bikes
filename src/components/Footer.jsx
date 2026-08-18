@@ -1,27 +1,27 @@
-import { Facebook, Instagram, Phone, Mail, ArrowUpRight, MapPin, ArrowUp } from "lucide-react";
+import { Facebook, Instagram, Phone, Mail, ArrowUpRight } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { config } from "../config";
 
-export default function Footer({ onOpenLegal }) {
+export default function Footer({ onOpenPrivacy, onOpenCookies }) {
   const { t, language } = useLanguage();
   const currentYear = new Date().getFullYear();
 
   const contactCards = [
     {
       name: "Instagram",
-      handle: "@routen109mobilidade",
+      handle: "@agostinho.in_",
       icon: <Instagram className="w-5 h-5 text-pink-500 group-hover:scale-110 transition-transform duration-300" />,
       iconBg: "bg-pink-500/10 group-hover:bg-pink-500/20",
-      url: "https://www.instagram.com/routen109mobilidade/",
+      url: "https://www.instagram.com/agostinho.in_/",
       borderColor: "hover:border-pink-500/30",
       hoverBg: "hover:bg-pink-500/[0.02]"
     },
     {
       name: "Facebook",
-      handle: "RouteN109",
+      handle: "Agostinho.in",
       icon: <Facebook className="w-5 h-5 text-blue-500 group-hover:scale-110 transition-transform duration-300" />,
       iconBg: "bg-blue-500/10 group-hover:bg-blue-500/20",
-      url: "https://www.facebook.com/RouteN109//",
+      url: "https://www.facebook.com/Agostinho.in/",
       borderColor: "hover:border-blue-500/30",
       hoverBg: "hover:bg-blue-500/[0.02]"
     },
@@ -49,159 +49,126 @@ export default function Footer({ onOpenLegal }) {
 
   return (
     <footer id="footer" className="bg-neutral-950 text-white pt-16 pb-8 md:pt-24 md:pb-12 border-t border-neutral-900 relative overflow-hidden text-left">
+      {/* UX Audit: label placeholder aria-label */}
       {/* Decorative details */}
       <div className="absolute right-[5%] bottom-[10%] w-[300px] h-[300px] bg-primary/5 rounded-full filter blur-3xl pointer-events-none" />
 
       <div className="max-w-[1400px] mx-auto px-6 relative z-10">
         
-        {/* Main Grid: 3 Columns (Brand Info, Navigation, Contacts & Legal) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-12 border-b border-neutral-900/60">
-          
-          {/* Column 1: Brand Info & Social Media Cards */}
-          <div className="lg:col-span-5 space-y-5">
-            <a href={`${prefix}/#home`} className="flex items-center gap-3">
-              <img src="/logo.webp" alt="Route 109 Logo" width="40" height="40" className="h-10 w-auto object-contain" />
-              <span className="font-extrabold tracking-tighter text-white font-display text-lg uppercase">
-                Route <span className="text-primary font-black font-display">N109</span>
-              </span>
-            </a>
-            
-            <p className="text-xs leading-relaxed text-neutral-300 max-w-md">
+        {/* Contact Banner Section */}
+        <div className="bg-neutral-900 border border-neutral-805 rounded-none p-6 md:p-12 mb-10 md:mb-16 flex flex-col lg:flex-row items-center justify-between gap-8 backdrop-blur-sm">
+          <div className="text-center lg:text-left">
+            <h3 className="text-3xl font-extrabold font-display tracking-tight mb-2 uppercase">
+              {t("footer.title")}
+            </h3>
+            <p className="text-neutral-300 text-sm font-normal max-w-md leading-relaxed">
               {t("footer.desc")}
             </p>
-            
-            {/* Small Compact Social Cards */}
-            <div className="flex flex-wrap gap-3 pt-2">
-              {contactCards.filter(card => card.name === "Instagram" || card.name === "Facebook").map((card, idx) => (
-                <a
-                  key={idx}
-                  href={card.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`p-3 pr-4 rounded-xl border border-neutral-900 bg-neutral-900/30 flex items-center gap-3 transition-all duration-300 group hover:bg-neutral-900/60 ${card.borderColor} ${card.hoverBg} text-left w-[170px] shrink-0`}
-                >
-                  <div className={`p-2 rounded-lg transition-colors ${card.iconBg}`}>
-                    {card.icon}
-                  </div>
-                  <div className="overflow-hidden">
-                    <h4 className="font-bold text-white font-display text-xs mb-0.5">{card.name}</h4>
-                    <p className="text-[10px] text-neutral-400 font-normal truncate">{card.handle}</p>
-                  </div>
-                  <ArrowUpRight className="w-3.5 h-3.5 text-neutral-600 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-primary ml-auto shrink-0" />
-                </a>
-              ))}
-            </div>
           </div>
-
-          {/* Column 2: Navigation Links */}
-          <div className="lg:col-span-3 space-y-4">
-            <h4 className="text-sm font-bold uppercase tracking-wider text-white font-display">
-              {t("footer.quickLinks")}
-            </h4>
-            <ul className="space-y-3 text-xs font-medium text-neutral-400">
-              <li>
-                <a href={`${prefix}/#home`} className="hover:text-primary transition-colors">
-                  {t("nav.home")}
-                </a>
-              </li>
-              <li>
-                <a href={`${prefix}/#sobre`} className="hover:text-primary transition-colors">
-                  {t("nav.about")}
-                </a>
-              </li>
-              <li>
-                <a href={`${prefix}/catalogo`} className="hover:text-primary transition-colors">
-                  {t("nav.catalog")}
-                </a>
-              </li>
-              <li>
-                <a href={`${prefix}/#avaliacoes`} className="hover:text-primary transition-colors">
-                  {t("nav.reviews")}
-                </a>
-              </li>
-              <li>
-                <a href={`${prefix}/#contacto`} className="hover:text-primary transition-colors">
-                  {t("nav.contact")}
-                </a>
-              </li>
-            </ul>
+          
+          <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto shrink-0">
+            <a
+              href={`tel:${config.telephone}`}
+              className="bg-primary hover:bg-neutral-900 text-white px-6 py-4 rounded-full font-bold flex items-center justify-center gap-2 spring-hover shadow-md shadow-primary/20 w-full sm:w-auto text-xs uppercase tracking-wider"
+            >
+              <Phone className="w-4 h-4" />
+              {t("footer.callBtn")}: {config.telephoneDisplay}
+            </a>
+            <a
+              href={`mailto:${config.email}`}
+              className="bg-white hover:bg-neutral-100 text-neutral-950 px-6 py-4 rounded-full font-bold flex items-center justify-center gap-2 spring-hover shadow-md w-full sm:w-auto text-xs uppercase tracking-wider"
+            >
+              <Mail className="w-4 h-4 text-primary" />
+              {t("footer.emailBtn")}
+            </a>
           </div>
+        </div>
 
-          {/* Column 3: Contacts & Legal */}
-          <div className="lg:col-span-4 space-y-4">
-            <h4 className="text-sm font-bold uppercase tracking-wider text-white font-display">
-              {language === "en" ? "Contacts & Legal" : language === "es" ? "Contactos y Legal" : language === "fr" ? "Contacts & Légal" : language === "de" ? "Kontakte & Rechtliches" : "Contactos & Legal"}
-            </h4>
-            <ul className="space-y-3.5 text-xs text-neutral-400">
-              <li className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-primary shrink-0" />
-                <span>
-                  {language === "en" ? "Phone" : "Telefone"}: <a href={`tel:${config.telephone}`} className="text-white hover:text-primary transition-colors font-bold">{config.telephoneDisplay}</a>
-                </span>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <Mail className="w-4 h-4 text-primary shrink-0" />
-                <a href={`mailto:${config.email}`} className="hover:text-primary transition-colors">
-                  {config.email}
-                </a>
-              </li>
-              <li className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
-                <span>
-                  {config.address.street}, {config.address.locality}, {config.address.postalCode} – Pombal, {config.address.countryName}
-                </span>
-              </li>
-            </ul>
-            <div className="pt-2 space-y-2 flex flex-col items-start">
-              <button
-                onClick={() => onOpenLegal && onOpenLegal("privacy")}
-                className="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-primary transition-colors font-medium cursor-pointer"
+        {/* Info Cards Grid: Socials, Email, Phone */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {contactCards.map((card, idx) => (
+            <a
+              key={idx}
+              href={card.url}
+              target={card.url.startsWith("http") ? "_blank" : undefined}
+              rel={card.url.startsWith("http") ? "noopener noreferrer" : undefined}
+              className={`p-5 rounded-2xl border border-neutral-900 bg-neutral-900/30 flex items-center justify-between transition-all duration-300 group hover:bg-neutral-900/60 ${card.borderColor} ${card.hoverBg} text-left`}
+            >
+              <div className="flex items-center gap-4">
+                <div className={`p-2.5 rounded-xl transition-colors ${card.iconBg}`}>
+                  {card.icon}
+                </div>
+                <div>
+                  <h4 className="font-bold text-white font-display text-sm mb-0.5">{card.name}</h4>
+                  <p className="text-[11px] text-neutral-400 font-normal truncate max-w-[140px] sm:max-w-[160px] md:max-w-[130px] lg:max-w-[150px]">{card.handle}</p>
+                </div>
+              </div>
+              <ArrowUpRight className="w-4 h-4 text-neutral-600 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-primary" />
+            </a>
+          ))}
+        </div>
+
+        {/* Divider */}
+        <div className="border-t border-neutral-900 pt-12 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-neutral-400 font-normal">
+          
+          {/* Logo & copyright */}
+          <div className="flex flex-col items-center md:items-start gap-2 text-center md:text-left">
+            <a href={`${prefix}/#home`} className="flex items-center gap-3">
+              <span className="w-3 h-3 bg-primary rounded-full animate-pulse" />
+              <span className="font-extrabold tracking-tighter text-white font-display text-lg">
+                AGOSTINHO <span className="text-red-500 font-black font-display">BIKES</span>
+              </span>
+            </a>
+            <p className="text-xs text-neutral-400 mt-1">
+              &copy; {currentYear} {t("footer.copyright")}
+              <a 
+                href="https://p-d-agency.vercel.app" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-primary transition-colors underline font-medium"
               >
-                <span>Política de Privacidade (RGPD)</span>
-              </button>
-
-              <button
-                onClick={() => onOpenLegal && onOpenLegal("cookies")}
-                className="inline-flex items-center gap-1.5 text-xs text-neutral-300 hover:text-primary transition-colors font-medium cursor-pointer"
-              >
-                <span>Política de Cookies</span>
-              </button>
-
+                P&D Agency
+              </a>.
+            </p>
+            <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 justify-center md:justify-start items-center text-[10px] text-neutral-400 font-medium">
               <a 
                 href="https://www.livroreclamacoes.pt" 
                 target="_blank" 
-                rel="noopener noreferrer" 
-                className="inline-flex items-center gap-1.5 text-xs text-primary hover:text-white transition-colors underline font-medium pt-1"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors underline"
               >
-                <span>Livro de Reclamações Eletrónico</span>
-                <ArrowUpRight className="w-3.5 h-3.5" />
+                Livro de Reclamações Eletrónico
               </a>
+              <span className="hidden md:inline text-neutral-700">|</span>
+              <button 
+                onClick={onOpenPrivacy}
+                className="hover:text-white transition-colors underline bg-transparent border-none p-0 cursor-pointer text-[10px] font-medium outline-none"
+              >
+                Política de Privacidade
+              </button>
+              <span className="hidden md:inline text-neutral-700">|</span>
+              <button 
+                onClick={onOpenCookies}
+                className="hover:text-white transition-colors underline bg-transparent border-none p-0 cursor-pointer text-[10px] font-medium outline-none"
+              >
+                Política de Cookies
+              </button>
             </div>
           </div>
 
-        </div>
-
-        {/* Bottom copyright and Scroll to Top */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-400">
-          <div>
-            &copy; {currentYear} {t("footer.copyright")}
-            <a 
-              href="https://p-d-agency.vercel.app" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="hover:text-primary transition-colors underline font-medium ml-1"
-            >
-              P&D Agency
-            </a>.
+          {/* Quick links */}
+          <div className="flex flex-wrap justify-center gap-8 font-semibold text-white">
+            <a href={`${prefix}/#menu`} className="hover:text-primary transition-colors">
+              {t("nav.bikes")}
+            </a>
+            <a href={`${prefix}/#sobre`} className="hover:text-primary transition-colors">
+              {t("nav.about")}
+            </a>
+            <a href={`${prefix}/#galeria`} className="hover:text-primary transition-colors">
+              {t("nav.gallery")}
+            </a>
           </div>
-          
-          <button 
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex items-center gap-2 text-neutral-400 hover:text-white transition-colors cursor-pointer text-xs uppercase tracking-wider font-bold"
-          >
-            <span>{language === "en" ? "Back to Top" : "Voltar ao Topo"}</span>
-            <ArrowUp className="w-4 h-4 text-primary" />
-          </button>
+
         </div>
 
       </div>

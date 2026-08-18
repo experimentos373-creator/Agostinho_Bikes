@@ -18,12 +18,12 @@ export default function Navbar() {
 
   useEffect(() => {
     const updateCount = () => {
-      const saved = localStorage.getItem("route109_favorites");
+      const saved = localStorage.getItem("agostinho_favorites");
       if (saved) {
         try {
           const parsed = JSON.parse(saved);
           setFavCount(parsed.length);
-        } catch {
+        } catch (e) {
           setFavCount(0);
         }
       } else {
@@ -44,18 +44,22 @@ export default function Navbar() {
     { code: "pt", label: "PT", name: "Português", flag: "🇵🇹" },
     { code: "en", label: "EN", name: "English", flag: "🇬🇧" },
     { code: "es", label: "ES", name: "Español", flag: "🇪🇸" },
-    { code: "fr", label: "FR", name: "Français", flag: "🇫🇷" }
+    { code: "fr", label: "FR", name: "Français", flag: "🇫🇷" },
+    { code: "de", label: "DE", name: "Deutsch", flag: "🇩🇪" }
   ];
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setIsScrolled(window.scrollY > 50);
+          ticking = false;
+        });
+        ticking = true;
       }
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -99,40 +103,59 @@ export default function Navbar() {
 
   const prefix = language === "pt" ? "" : `/${language}`;
   const catalogSlugMap = { pt: "catalogo", en: "catalog", es: "catalogo", fr: "catalogue", de: "katalog" };
+  const rentSlugMap = { pt: "aluguer", en: "rent", es: "alquiler", fr: "location", de: "mieten" };
   const companySlugMap = { pt: "empresa", en: "about", es: "empresa", fr: "entreprise", de: "unternehmen" };
   const servicesSlugMap = { pt: "servicos", en: "services", es: "servicios", fr: "services", de: "services" };
   const gallerySlugMap = { pt: "galeria", en: "gallery", es: "galeria", fr: "galerie", de: "galerie" };
 
   const navLinks = [
     { label: t("nav.home").toUpperCase(), href: prefix || "/" },
-    { label: t("nav.about").toUpperCase(), href: `${prefix || ""}/#sobre` },
-    { label: t("nav.catalog").toUpperCase(), href: `${prefix || ""}/#produtos` },
-    { label: t("nav.reviews").toUpperCase(), href: `${prefix || ""}/#avaliacoes` },
-    { label: t("nav.contact").toUpperCase(), href: `${prefix || ""}/#contacto` },
+    { label: t("nav.catalog").toUpperCase(), href: `${prefix}/${catalogSlugMap[language] || "catalogo"}` },
+    { label: t("nav.rent").toUpperCase(), href: `${prefix}/${rentSlugMap[language] || "aluguer"}` },
+    { label: t("nav.services").toUpperCase(), href: `${prefix}/${servicesSlugMap[language] || "servicos"}` },
+    { label: t("nav.company").toUpperCase(), href: `${prefix}/${companySlugMap[language] || "empresa"}` },
+    { label: t("nav.gallery").toUpperCase(), href: `${prefix}/${gallerySlugMap[language] || "galeria"}` },
   ];
 
   const currentLangObj = languages.find((l) => l.code === language) || languages[0];
 
   return (
     <div className="fixed top-0 left-0 w-full z-50 transition-all duration-300">
+      {/* Announcement Bar */}
+      <div className="bg-neutral-950 text-white text-[9px] font-extrabold tracking-widest uppercase py-1 text-center border-b border-neutral-900">
+        {language === "en" 
+          ? "+35 Years of Tradition • Official Mondraker Dealer"
+          : language === "es"
+          ? "+35 Años de Tradición • Distribuidor Oficial Mondraker"
+          : language === "fr"
+          ? "+35 Ans de Tradition • Revendeur Officiel Mondraker"
+          : language === "de"
+          ? "+35 Jahre Tradition • Offizieller Mondraker-Händler"
+          : "+35 Anos de Tradição • Venda & Oficina Oficial Mondraker"
+        }
+      </div>
+
       <nav
         className={`w-full transition-all duration-300 ${
           isScrolled || isMobileMenuOpen
-            ? "bg-white/95 backdrop-blur-md shadow-sm py-2.5 md:py-3 text-black border-b border-neutral-100"
-            : "bg-white/80 backdrop-blur-sm py-3 md:py-4 text-black border-b border-neutral-200/40"
+            ? "bg-white/95 backdrop-blur-md shadow-sm py-2.5 text-black border-b border-neutral-100"
+            : "bg-white/80 backdrop-blur-sm py-3 text-black border-b border-neutral-200/40"
         }`}
       >
         <div className="max-w-[1400px] mx-auto px-6 flex justify-between items-center">
           {/* Logo */}
-          <Link to={prefix || "/"} className="flex flex-row items-center gap-2 sm:gap-3 group">
-            <div className="flex items-center gap-2">
-              <img src="/logo.webp" alt="Route 109 Logo" width="36" height="36" className="h-8 w-8 sm:h-9 sm:w-9 object-contain" />
-              <span className="font-extrabold tracking-tighter text-lg sm:text-xl font-display text-black uppercase">
-                Route<span className="text-primary font-black"> N109</span>
-              </span>
+          <Link to={prefix || "/"} className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2.5 group">
+            <div className="flex items-center">
+              <img 
+                src="/images/logo.webp" 
+                alt="Agostinho Bikes Logo" 
+                className="h-8.5 sm:h-9.5 w-auto object-contain"
+                width="144"
+                height="70"
+              />
             </div>
-            <span className="text-[9px] uppercase tracking-widest bg-neutral-900 text-neutral-100 px-2 py-0.5 font-bold rounded-sm hidden sm:inline-block">
-              Mobilidade Elétrica
+            <span className="text-[8.5px] uppercase tracking-widest bg-neutral-900 text-neutral-100 px-1.5 py-0.5 font-bold rounded-sm self-start sm:self-auto">
+              Performance Bike Store
             </span>
           </Link>
 
@@ -218,6 +241,8 @@ export default function Navbar() {
                 ? "Llamar Tienda"
                 : language === "fr"
                 ? "Appeler Magasin"
+                : language === "de"
+                ? "Anrufen Laden"
                 : "Ligar para Loja"}
             </a>
           </div>
@@ -317,6 +342,8 @@ export default function Navbar() {
                 ? "Llamar Tienda"
                 : language === "fr"
                 ? "Appeler Magasin"
+                : language === "de"
+                ? "Anrufen Laden"
                 : "Ligar para Loja"}
             </a>
           </div>

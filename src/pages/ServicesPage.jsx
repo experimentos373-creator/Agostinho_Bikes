@@ -1,55 +1,59 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { ArrowLeft, Cpu, Activity, Wrench, Shield, CheckCircle2 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import BudgetForm from "../components/BudgetForm";
 
 export default function ServicesPage() {
   const { t, language } = useLanguage();
+  const [searchParams] = useSearchParams();
   const prefix = language === "pt" ? "" : `/${language}`;
 
   useEffect(() => {
     const titles = {
-      pt: "Serviços de Oficina & Orçamentos | Route N109",
-      en: "Workshop Services & Quotes | Route N109",
-      es: "Servicios de Taller & Presupuestos | Route N109",
-      fr: "Services d'Atelier & Devis | Route N109",
-      de: "Werkstattservice & Kostenvoranschläge | Route N109"
+      pt: "Serviços de Oficina & Orçamentos | Agostinho BIKES",
+      en: "Workshop Services & Quotes | Agostinho BIKES",
+      es: "Servicios de Taller & Presupuestos | Agostinho BIKES",
+      fr: "Services d'Atelier & Devis | Agostinho BIKES",
+      de: "Werkstattservice & Kostenvoranschläge | Agostinho BIKES"
     };
     document.title = titles[language] || titles.pt;
   }, [language]);
 
   const specialties = [
     {
-      title: t("services.diagBosch.title"),
-      desc: t("services.diagBosch.desc"),
-      icon: <Cpu className="w-6 h-6 text-primary" />
-    },
-    {
-      title: t("services.diagDJI.title"),
-      desc: t("services.diagDJI.desc"),
-      icon: <Activity className="w-6 h-6 text-primary" />
-    },
-    {
-      title: t("services.suspension.title"),
-      desc: t("services.suspension.desc"),
+      title: t("services.generalMech.title"),
+      desc: t("services.generalMech.desc"),
       icon: <Wrench className="w-6 h-6 text-primary" />
     },
     {
-      title: t("services.custom.title"),
-      desc: t("services.custom.desc"),
+      title: t("services.servicing.title"),
+      desc: t("services.servicing.desc"),
+      icon: <Activity className="w-6 h-6 text-primary" />
+    },
+    {
+      title: t("services.generalDiag.title"),
+      desc: t("services.generalDiag.desc"),
+      icon: <Cpu className="w-6 h-6 text-primary" />
+    },
+    {
+      title: t("services.customBuilds.title"),
+      desc: t("services.customBuilds.desc"),
       icon: <Shield className="w-6 h-6 text-primary" />
     }
   ];
 
   return (
-    <div className="bg-white min-h-screen text-neutral-800 pt-24 md:pt-32 pb-20 text-left">
+    <div className="bg-white min-h-screen text-neutral-800 pt-32 md:pt-40 pb-20 text-left">
       
       {/* Back button */}
-      <div className="max-w-[1400px] mx-auto px-6 mb-8">
-        <Link to={prefix || "/"} className="inline-flex items-center gap-2 text-neutral-500 hover:text-neutral-900 transition-colors font-semibold text-sm">
-          <ArrowLeft className="w-4 h-4" />
-          {t("general.backToHome")}
+      <div className="max-w-[1400px] mx-auto px-6 mt-2 mb-8">
+        <Link
+          to={prefix || "/"}
+          className="inline-flex items-center gap-2 bg-neutral-100/90 hover:bg-neutral-900 text-neutral-600 hover:text-white px-3.5 py-1.5 rounded-full text-xs font-bold transition-all duration-300 shadow-xs border border-neutral-200/80 group"
+        >
+          <ArrowLeft className="w-3.5 h-3.5 text-primary group-hover:text-white group-hover:-translate-x-1 transition-all duration-300" />
+          <span>{t("general.backToHome")}</span>
         </Link>
       </div>
 
@@ -58,7 +62,7 @@ export default function ServicesPage() {
           
           {/* Header */}
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="text-primary font-black uppercase text-xs tracking-widest bg-primary/10 px-4 py-1.5 rounded-full mb-4 inline-block">
+            <span className="text-red-700 font-extrabold uppercase text-xs tracking-widest bg-red-50 border border-red-200/60 px-4 py-1.5 rounded-full mb-4 inline-block">
               {t("general.servicesWorkshop")}
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-display tracking-tight leading-none mb-6 uppercase text-neutral-900">
@@ -121,7 +125,7 @@ export default function ServicesPage() {
               {/* Trust disclaimer */}
               <div className="mt-8 border-t border-neutral-200 pt-4 flex items-center justify-center gap-2 text-[9px] text-neutral-400 font-extrabold uppercase tracking-wider">
                 <CheckCircle2 className="w-3.5 h-3.5 text-primary shrink-0" />
-                <span>Ligação direta e segura para o WhatsApp de Route N109</span>
+                <span>Ligação direta e segura para o WhatsApp de Agostinho BIKES</span>
               </div>
             </div>
 
