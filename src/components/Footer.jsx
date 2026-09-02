@@ -132,24 +132,6 @@ export default function Footer() {
               </a>.
             </p>
             <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 justify-center md:justify-start items-center text-[10px] text-neutral-400 font-medium">
-              <a 
-                href="https://www.livroreclamacoes.pt" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="hover:text-white transition-colors underline"
-              >
-                Livro de Reclamações Eletrónico
-              </a>
-              <span className="hidden md:inline text-neutral-700">|</span>
-              <a 
-                href="https://www.cniacc.pt" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="hover:text-white transition-colors underline"
-              >
-                RAL (Litígios de Consumo)
-              </a>
-              <span className="hidden md:inline text-neutral-700">|</span>
               <Link 
                 to={prefix ? `${prefix}/politica-privacidade` : "/politica-privacidade"}
                 className="hover:text-white transition-colors underline"
@@ -162,6 +144,31 @@ export default function Footer() {
                 className="hover:text-white transition-colors underline"
               >
                 {language === "en" ? "Cookie Policy" : "Política de Cookies"}
+              </Link>
+              <span className="hidden md:inline text-neutral-700">|</span>
+              <a 
+                href="https://www.livroreclamacoes.pt" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-white transition-colors underline"
+              >
+                {language === "en" ? "Complaints Book" : "Livro de Reclamações"}
+              </a>
+              <span className="hidden md:inline text-neutral-700">|</span>
+              <a 
+                href="https://www.cniacc.pt" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-white transition-colors underline"
+              >
+                {language === "en" ? "Consumer Disputes (RAL)" : "Resolução de Litígios de Consumo (RAL)"}
+              </a>
+              <span className="hidden md:inline text-neutral-700">|</span>
+              <Link 
+                to={prefix ? `${prefix}/politica-privacidade` : "/politica-privacidade"}
+                className="hover:text-white transition-colors underline"
+              >
+                {language === "en" ? "Terms & Conditions" : "Termos e Condições"}
               </Link>
             </div>
           </div>
