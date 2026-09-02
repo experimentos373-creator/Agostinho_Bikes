@@ -141,6 +141,15 @@ export default function Footer() {
                 Livro de Reclamações Eletrónico
               </a>
               <span className="hidden md:inline text-neutral-700">|</span>
+              <a 
+                href="https://www.cniacc.pt" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-white transition-colors underline"
+              >
+                RAL (Litígios de Consumo)
+              </a>
+              <span className="hidden md:inline text-neutral-700">|</span>
               <Link 
                 to={prefix ? `${prefix}/politica-privacidade` : "/politica-privacidade"}
                 className="hover:text-white transition-colors underline"

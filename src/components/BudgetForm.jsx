@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
 import { config } from "../config";
 import { CheckCircle2 } from "lucide-react";
@@ -207,6 +208,14 @@ export default function BudgetForm() {
             className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none transition-all duration-200"
           ></textarea>
         </div>
+
+        {/* Informação de Privacidade RGPD */}
+        <p className="text-[11px] text-gray-500 leading-relaxed text-left">
+          Os dados fornecidos serão tratados por Agostinho & Inácio Lda. (Agostinho BIKES) para analisar e responder ao seu pedido de orçamento e, quando aplicável, realizar as diligências pré-contratuais solicitadas. Para saber mais sobre como tratamos os seus dados e os seus direitos, consulte a nossa{" "}
+          <Link to="/politica-privacidade" className="text-red-600 font-bold underline hover:text-red-700 transition-colors">
+            Política de Privacidade
+          </Link>.
+        </p>
 
         <button
           type="submit"

@@ -885,7 +885,13 @@ export default function RentPage() {
               </div>
 
               {/* ALWAYS VISIBLE STICKY FOOTER CTA */}
-              <div className="p-4 sm:p-6 bg-white border-t border-neutral-200 shadow-2xl shrink-0 z-10">
+              <div className="p-4 sm:p-6 bg-white border-t border-neutral-200 shadow-2xl shrink-0 z-10 space-y-3">
+                <p className="text-[11px] text-neutral-500 leading-relaxed text-left">
+                  Os dados fornecidos serão tratados por Agostinho & Inácio Lda. para preparar a sua reserva de aluguer de bicicleta e realizar as diligências pré-contratuais solicitadas. Para mais informações, consulte a nossa{" "}
+                  <Link to="/politica-privacidade" className="text-red-600 font-bold underline hover:text-red-700 transition-colors">
+                    Política de Privacidade
+                  </Link>.
+                </p>
                 <button
                   onClick={handleWhatsappSubmit}
                   className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-black uppercase tracking-widest py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-all duration-200 shadow-xl shadow-emerald-600/20 cursor-pointer text-sm hover:scale-[1.01]"
