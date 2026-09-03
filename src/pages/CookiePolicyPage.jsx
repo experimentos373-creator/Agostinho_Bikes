@@ -22,7 +22,7 @@ export default function CookiePolicyPage() {
 
   const resetCookies = () => {
     localStorage.removeItem("agostinho_cookie_consent");
-    window.location.reload();
+    window.dispatchEvent(new Event("reset_cookie_consent"));
   };
 
   const backLink = prefix || "/";

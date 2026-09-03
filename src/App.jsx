@@ -18,6 +18,7 @@ const GalleryPage = lazy(() => import("./pages/GalleryPage"));
 const RentPage = lazy(() => import("./pages/RentPage"));
 const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage"));
 const CookiePolicyPage = lazy(() => import("./pages/CookiePolicyPage"));
+const TermsPage = lazy(() => import("./pages/TermsPage"));
 
 // Scroll Restoration & Hash Scrolling Helper
 function ScrollToTop() {
@@ -194,6 +195,14 @@ export default function App() {
             <Route path="/es/politica-cookies" element={<CookiePolicyPage />} />
             <Route path="/fr/politique-cookies" element={<CookiePolicyPage />} />
             <Route path="/de/cookie-richtlinie" element={<CookiePolicyPage />} />
+
+            {/* Terms and Conditions routes */}
+            <Route path="/termos-condicoes" element={<TermsPage />} />
+            <Route path="/termos-servico" element={<TermsPage />} />
+            <Route path="/en/terms" element={<TermsPage />} />
+            <Route path="/es/terminos-condiciones" element={<TermsPage />} />
+            <Route path="/fr/conditions-generales" element={<TermsPage />} />
+            <Route path="/de/agb" element={<TermsPage />} />
 
             {/* Dynamic SEO pages */}
             <Route path="/:slug" element={<SEOPage />} />

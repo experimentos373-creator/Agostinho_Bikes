@@ -131,45 +131,53 @@ export default function Footer() {
                 P&D Agency
               </a>.
             </p>
-            <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 justify-center md:justify-start items-center text-[10px] text-neutral-400 font-medium">
+            <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1.5 justify-center md:justify-start items-center text-[10px] text-neutral-400 font-medium">
               <Link 
                 to={prefix ? `${prefix}/politica-privacidade` : "/politica-privacidade"}
                 className="hover:text-white transition-colors underline"
               >
                 {language === "en" ? "Privacy Policy" : "Política de Privacidade"}
               </Link>
-              <span className="hidden md:inline text-neutral-700">|</span>
-              <Link 
-                to={prefix ? `${prefix}/politica-cookies` : "/politica-cookies"}
-                className="hover:text-white transition-colors underline"
-              >
-                {language === "en" ? "Cookie Policy" : "Política de Cookies"}
-              </Link>
-              <span className="hidden md:inline text-neutral-700">|</span>
-              <a 
-                href="https://www.livroreclamacoes.pt" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="hover:text-white transition-colors underline"
-              >
-                {language === "en" ? "Complaints Book" : "Livro de Reclamações"}
-              </a>
-              <span className="hidden md:inline text-neutral-700">|</span>
-              <a 
-                href="https://www.cniacc.pt" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="hover:text-white transition-colors underline"
-              >
-                {language === "en" ? "Consumer Disputes (RAL)" : "Resolução de Litígios de Consumo (RAL)"}
-              </a>
-              <span className="hidden md:inline text-neutral-700">|</span>
-              <Link 
-                to={prefix ? `${prefix}/politica-privacidade` : "/politica-privacidade"}
-                className="hover:text-white transition-colors underline"
-              >
-                {language === "en" ? "Terms & Conditions" : "Termos e Condições"}
-              </Link>
+              <span className="inline-flex items-center gap-x-4">
+                <span className="hidden md:inline text-neutral-700 select-none">|</span>
+                <Link 
+                  to={prefix ? `${prefix}/politica-cookies` : "/politica-cookies"}
+                  className="hover:text-white transition-colors underline"
+                >
+                  {language === "en" ? "Cookie Policy" : "Política de Cookies"}
+                </Link>
+              </span>
+              <span className="inline-flex items-center gap-x-4">
+                <span className="hidden md:inline text-neutral-700 select-none">|</span>
+                <Link 
+                  to={prefix ? `${prefix}/termos-condicoes` : "/termos-condicoes"}
+                  className="hover:text-white transition-colors underline"
+                >
+                  {language === "en" ? "Terms & Conditions" : "Termos e Condições"}
+                </Link>
+              </span>
+              <span className="inline-flex items-center gap-x-4">
+                <span className="hidden md:inline text-neutral-700 select-none">|</span>
+                <a 
+                  href="https://www.livroreclamacoes.pt" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-white transition-colors underline"
+                >
+                  {language === "en" ? "Complaints Book" : "Livro de Reclamações"}
+                </a>
+              </span>
+              <span className="inline-flex items-center gap-x-4">
+                <span className="hidden md:inline text-neutral-700 select-none">|</span>
+                <a 
+                  href="https://www.cniacc.pt" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-white transition-colors underline whitespace-nowrap"
+                >
+                  {language === "en" ? "Consumer Disputes (RAL)" : "Resolução de Litígios de Consumo (RAL)"}
+                </a>
+              </span>
             </div>
           </div>
 

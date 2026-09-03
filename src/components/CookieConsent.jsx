@@ -13,6 +13,14 @@ export default function CookieConsent() {
       const timer = setTimeout(() => setIsVisible(true), 1200);
       return () => clearTimeout(timer);
     }
+
+    const handleReset = () => {
+      localStorage.removeItem("agostinho_cookie_consent");
+      setIsVisible(true);
+    };
+
+    window.addEventListener("reset_cookie_consent", handleReset);
+    return () => window.removeEventListener("reset_cookie_consent", handleReset);
   }, []);
 
   const handleAcknowledge = () => {

@@ -41,11 +41,11 @@ export default function Navbar() {
   }, []);
 
   const languages = [
-    { code: "pt", label: "PT", name: "Português", flag: "🇵🇹" },
-    { code: "en", label: "EN", name: "English", flag: "🇬🇧" },
-    { code: "es", label: "ES", name: "Español", flag: "🇪🇸" },
-    { code: "fr", label: "FR", name: "Français", flag: "🇫🇷" },
-    { code: "de", label: "DE", name: "Deutsch", flag: "🇩🇪" }
+    { code: "pt", label: "PT", name: "Português", FlagComponent: FlagPT },
+    { code: "en", label: "EN", name: "English", FlagComponent: FlagGB },
+    { code: "es", label: "ES", name: "Español", FlagComponent: FlagES },
+    { code: "fr", label: "FR", name: "Français", FlagComponent: FlagFR },
+    { code: "de", label: "DE", name: "Deutsch", FlagComponent: FlagDE }
   ];
 
   useEffect(() => {
@@ -177,13 +177,13 @@ export default function Navbar() {
                 onClick={() => setIsLangDropdownOpen(!isLangDropdownOpen)}
                 className="flex items-center gap-1.5 text-[10px] font-bold tracking-widest text-neutral-700 hover:text-black uppercase cursor-pointer py-1.5 px-2.5 rounded-lg bg-neutral-100/60 hover:bg-neutral-150 transition-all duration-200"
               >
-                <Globe className="w-3.5 h-3.5 text-neutral-400" />
+                <currentLangObj.FlagComponent className="w-4 h-3 rounded-2xs object-cover shrink-0 shadow-xs" />
                 <span>{currentLangObj.label}</span>
                 <span className="text-[7px] text-neutral-400">▼</span>
               </button>
               
               {isLangDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-40 bg-white border border-neutral-200 rounded-xl shadow-xl py-2 z-50 animate-menu-fade">
+                <div className="absolute right-0 mt-2 w-44 bg-white border border-neutral-200 rounded-xl shadow-xl py-2 z-50 animate-menu-fade">
                   {languages.map((lang) => (
                     <button
                       key={lang.code}
@@ -196,20 +196,14 @@ export default function Navbar() {
                         language === lang.code ? "text-primary font-black bg-neutral-50" : "text-neutral-700"
                       }`}
                     >
-                      <span className="flex items-center gap-3">
-                        <span className={`text-[10px] tracking-wider font-extrabold w-5 text-left ${language === lang.code ? "text-primary" : "text-neutral-400"}`}>
+                      <span className="flex items-center gap-2.5">
+                        <lang.FlagComponent className="w-5 h-3.5 object-cover rounded-2xs shadow-xs shrink-0" />
+                        <span className={`text-[10px] tracking-wider font-extrabold text-left ${language === lang.code ? "text-primary" : "text-neutral-400"}`}>
                           {lang.label}
                         </span>
                         <span>{lang.name}</span>
                       </span>
-                      <span className="flex items-center gap-2">
-                        <img
-                          src={`https://flagcdn.com/w20/${lang.code === "en" ? "gb" : lang.code}.png`}
-                          alt=""
-                          className="w-5 h-3.5 object-cover rounded-sm shadow-sm border border-neutral-200/40"
-                        />
-                        {language === lang.code && <span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse" />}
-                      </span>
+                      {language === lang.code && <span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse shrink-0 ml-1" />}
                     </button>
                   ))}
                 </div>
