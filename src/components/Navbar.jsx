@@ -3,6 +3,7 @@ import { Menu, X, Phone, Globe, Heart } from "lucide-react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
 import { config } from "../config";
+import { FlagPT, FlagGB, FlagES, FlagFR, FlagDE } from "./Flags";
 
 export default function Navbar() {
   const { t, language } = useLanguage();
